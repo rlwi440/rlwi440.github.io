@@ -18,9 +18,9 @@ header .menu{
 }
 header .menu ul li:last-child{
     /* margin-right */
-    margin-top: -47.5vh;
+    margin-top: -48.5vh;
     /*버튼 입력 구간 */
-    transform: translateX(49vw);
+    transform: translateX(51.8vw);
 }
 
 header .menu ul li a{
@@ -51,16 +51,19 @@ border-bottom-right-radius: 0;
 
 .box{
     position: relative;
-    width: 15vw;
-    height: 16vw;
+    width: 14vw;
+    height: 13vw;
     /* 요소의 자식이 3D 공간에 배치 */
     transform-style: preserve-3d;
     animation: animate 20s linear infinite;
 }
 .box-menu{
+    /*menu부분*/
+    transform: translateY(-9vw);
     font-size: 75px;
     display: inline-block;
-    color: #9e9e9eab;
+    /*폰트색깔지정*/
+    color: #666c;
     height:1em;
     padding-right: 0.5em;
     overflow: hidden;
