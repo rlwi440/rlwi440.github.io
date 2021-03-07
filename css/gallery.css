@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  background-color: lightgray;
+}
+li{
+    list-style-type: none;
+}
+header .menu{
+    float: right;
+}
+header .menu ul li:last-child{
+    /* margin-right */
+    margin-top: -47.5vh;
+    /*버튼 입력 구간 */
+    transform: translateX(49vw);
+}
+
+header .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:  all ease 0.5s;
+}
+header .menu ul li a:hover{
+    color:darkgray;
+}
+/*header button*/
+header .menu ul li.btn a{
+    background-color:#9e9e9ead;
+    color: #000;
+    padding: 14px 27px;
+    border-top-left-radius: 15px;
+    /*bordert bottom radius부분 15px*/
+    border-bottom-right-radius: 15px;
+}
+/*클릭시 radius 15px*/
+header .menu ul li.btn a:hover{
+border-radius: 15px;
+border-top-left-radius: 0;
+/*bordert bottom radius부분 15px*/
+border-bottom-right-radius: 0;
+}
+
+.box{
+    position: relative;
+    width: 15vw;
+    height: 16vw;
+    /* 요소의 자식이 3D 공간에 배치 */
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
+}
+.box-menu{
+    font-size: 75px;
+    display: inline-block;
+    color: #9e9e9eab;
+    height:1em;
+    padding-right: 0.5em;
+    overflow: hidden;
+    position: relative;
+   
+}
+.box-menu::after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: -1em;
+}
+.box-menu-list{
+    animation-name: rolling;
+    /*7초*/
+    animation-duration: 11s;
+    /* animation-iteration-count: infinite;자동재생 */
+    animation-iteration-count: infinite;
+}
+.box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* center부분적용 */
+    transform-origin: center;
+       /* 요소의 자식이 3D 공간에 배치 */
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transform,transparent,#0004);
+}
+.box span img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+/* animate*/
+@keyframes animate{
+    0%{
+        transform: perspective(1000px) rotateY(0);
+    }
+    25%{
+        transform: perspective(1000px) rotateY(90deg);
+    }
+    50%{
+        transform: perspective(1000px) rotateY(180deg);
+    }
+    75%{
+        transform: perspective(1000px) rotateY(200deg);
+    }
+    
+    100%{
+        transform: perspective(1000px) rotateY(360deg); 
+    }
+}
+
+/*Animation*/
+@keyframes rolling{
+    0%{
+       transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-20%);
+    }
+    50%{
+        transform: translateY(-40%);
+    }
+    75%{
+        transform: translateY(-60%);
+    }
+
+    100%{
+        transform: translateY(-80%);
+
+    }
+}

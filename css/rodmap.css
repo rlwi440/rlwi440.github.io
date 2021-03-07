@@ -1,0 +1,198 @@
+/* user agent stylesheet h1 */
+/* 기본값 초기화  margin,padding 0 값 선언 */
+body,h1,h2,ul,dl,dd{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+/* 아스팔트 컬러감을 주기위한컬러 */
+body{
+    background:#434448;
+    text-align: center;
+}
+header .menu{
+    float: right;
+}
+header .menu ul li:last-child{
+    /* last-child 버튼 구간*/
+    margin-top: 1vw;
+   margin-right:1.5vw;
+}
+
+header .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:  all ease 0.5s;
+}
+
+/*header button*/
+header .menu ul li.btn a{
+    background-color:#444041b5;
+    color: #000;
+    padding: 14px 27px;
+    border-top-left-radius: 15px;
+    /*bordert bottom radius부분 15px*/
+    border-bottom-right-radius: 15px;
+}
+/*클릭시 radius 15px*/
+header .menu ul li.btn a:hover{
+border-radius: 15px;
+border-top-left-radius: 0;
+/*bordert bottom radius부분 15px*/
+border-bottom-right-radius: 0;
+}
+
+.wrapper{
+    /* 간격을 주기위해 */
+    padding: 0 20px;
+    /* 절반효과  */
+    max-width: 960px;
+    margin: 0 auto;
+}
+/* cover 구간 */
+.cover{
+    background-image: url(image/loadmap.png);
+    color: darkgray;
+    /* body(부모) */
+    padding-top: 20%;
+    padding-bottom: 7%;
+    background-size: cover;
+    background-position: bottom;
+    /* transition padding 방지 */
+    transition:  padding .5s;
+}
+.cover-title{
+    font-size: 10vw;
+    font-family: 'Yellowtail', cursive;
+    font-weight: normal;
+    line-height: 1;
+    font-style: italic;
+    /* transition padding 방지 */
+    transition:  padding .5s;
+}
+.cover-title span{
+    font-family: arial;
+    font-size: 0.2em;
+    display: block;
+    /*들여쓰기 */
+    text-indent: 5em;
+}
+.timeline{
+    /* 다른요소에는 영향을 주지않는다. */
+    position: relative;
+}
+/* 가상요소 */
+.timeline::after{
+    content: ' ';
+    background-color:rgba(0,0,0,0.2);
+    position: absolute;
+    left:50%;
+    z-index: -1;
+    top: 5vw;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 6px;
+    bottom: 0;
+    margin-left: -3px;
+}
+.timeline-item{
+    margin-top: 70px;
+}
+/* card 부분  */
+.card{
+    background-color: rgba(0,0,0,6);
+    /*color값 */
+    color: darkkhaki;
+    /* 겹치는 현상 */
+    padding: 0 20px 20px 20px;
+    /* 박스둥글게 하는효과 */
+    border-radius: 50px;
+}
+.card-icon{
+    width: 70px;
+    height: auto;
+    /* 요소의 맨위를 줄에서
+    가장 큰요소의 맨위 맞춤 */
+    vertical-align: top;
+    position: relative;
+    /* 50% 레이아웃 현상  */
+    margin: -35px 30px 0;
+}
+.card-title{
+    font-size: 15vw;
+    color:lightgray;
+    /* font-family: impact효과  */
+    font-family: 'impact';
+    /* line-height: 1 효과 */
+    line-height: 1;
+    margin: 18px;
+}
+.card-definiton{
+    margin: 20px;
+    /* font수정*/
+    font-family: 'Laila', sans-serif;
+}
+.card-definiton dt{
+    font-size: 30px;
+    color: darkkhaki;
+    margin-bottom: 20px;
+}
+/* color 지정 */
+.card-definiton dt span{
+color:darkkhaki;
+display: block;
+font-size: 0.5em;
+}
+/* media 기능 */
+@media(min-width:720px){
+     .cover{
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }    
+    .cover-title{
+        font-size: 11.8vw;
+    }
+    .timeline::after{
+        background-color: rgba(0,0,0,0.2);
+        z-index: -1;
+    }
+    .timeline-item{
+        width: 50%;
+        padding:  0 20px;
+        /* 겹치기기능 */
+        box-sizing: border-box;
+        text-align: right;
+    }
+    /* 가상클래스 짝수만 가능 */
+   .timeline-item:nth-child(even){
+      margin-left: auto;
+      /* 마주치는 기능 */
+      margin-top: -150px;
+      margin-bottom: -200px;
+      text-align: left;
+   }
+   .card{
+    position: relative;
+   }
+    .card-title{
+        font-size: 10vw;
+     
+        /* 겹치는현상 */
+        display: inline-block;
+        position: relative;
+    }
+    .card-icon{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    /* 짝수의 자식 */
+    .timeline-item:nth-child(even) .card-icon{
+        /* 기본정렬*/
+        left: auto;
+        right: 0;
+    }
+}
