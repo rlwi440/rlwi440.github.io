@@ -112,7 +112,7 @@ overflow: hidden;
 .home-text p{
     max-width: 500px;
     font-size: 16px;
-    margin-top: 330px;
+    margin-top: 460px;
     /* font 수정 */
     font-family: 'Playfair Display', serif;
 }
@@ -128,4 +128,3 @@ overflow: hidden;
 .home .Hand img,.student span,.name span,.logo,.menu li,.small-intro span{
     opacity: 0;
 }
-
