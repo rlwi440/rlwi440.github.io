@@ -15,6 +15,7 @@ section{
 li{
     list-style-type: none;
 }
+/*버튼 수정예정*/
 .menu ul li.btn a{
     background-color:#9e9e9ead;
     color: #000;
@@ -46,7 +47,7 @@ li{
     margin: 0 10px;
 }
 .text h2 span:nth-child(even){
-    /*기본값*/
+    /*기본값 */
 color:  transparent;
 -webkit-text-stroke: 1px #fff;
 } 
