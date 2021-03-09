@@ -149,7 +149,8 @@ margin-bottom: -120px;
     box-shadow: 0 0 0px 0px #000;
 }
 .name-p{
-    font-family: 'Laila', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
 }
 .icons a{
     display: inline-block;
@@ -258,7 +259,7 @@ margin-bottom: -120px;
     overflow: hidden;
     /* font수정 */
     font-family: 'Laila', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     
 
 }
