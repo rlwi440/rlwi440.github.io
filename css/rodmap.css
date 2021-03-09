@@ -54,6 +54,7 @@ border-bottom-right-radius: 0;
 }
 /* cover 구간 */
 .cover{
+    /*이미지교체*/
     background-image: url(image/loadmap.png);
     color: #009688f0;
     /* body(부모) */
