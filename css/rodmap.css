@@ -9,7 +9,7 @@ li{
 }
 /* 아스팔트 컬러감을 주기위한컬러 */
 body{
-    background:#434448;
+    background:#060f1e;
     text-align: center;
 }
 header .menu{
@@ -30,7 +30,7 @@ header .menu ul li a{
 
 /*header button*/
 header .menu ul li.btn a{
-    background-color:#444041b5;
+    background-color:#009688f0;
     color: #000;
     padding: 14px 27px;
     border-top-left-radius: 15px;
@@ -55,7 +55,7 @@ border-bottom-right-radius: 0;
 /* cover 구간 */
 .cover{
     background-image: url(image/loadmap.png);
-    color: darkgray;
+    color: #009688f0;
     /* body(부모) */
     padding-top: 20%;
     padding-bottom: 7%;
@@ -103,7 +103,7 @@ border-bottom-right-radius: 0;
 }
 /* card 부분  */
 .card{
-    background-color: rgba(0,0,0,6);
+    background-color: #43597c29;
     /*color값 */
     color: darkkhaki;
     /* 겹치는 현상 */
@@ -137,14 +137,14 @@ border-bottom-right-radius: 0;
 }
 .card-definiton dt{
     font-size: 30px;
-    color: darkkhaki;
+    color: #898228;
     margin-bottom: 20px;
 }
 /* color 지정 */
 .card-definiton dt span{
 color:darkkhaki;
 display: block;
-font-size: 0.5em;
+font-size: 0.7em;
 }
 /* media 기능 */
 @media(min-width:720px){
