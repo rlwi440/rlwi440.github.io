@@ -11,12 +11,14 @@ header .menu{
     float: right;
     margin-top: -6.5vw;
 }
+
 header .menu ul li a{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     transition:  all ease 0.5s;
 }
+
 header .menu ul li.btn a{
     background-color:#009688f0;
     color: #000;
@@ -59,6 +61,7 @@ header .menu ul li.btn a{
     z-index: 1;
     transition: 1s;
 }
+
 .card:hover .imgBox{
     transform: rotateY(-135deg);
 }
