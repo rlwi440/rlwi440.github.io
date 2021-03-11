@@ -111,21 +111,20 @@ lobtn.addEventListener('click', (e) => {
     userId = userId.value;
     localStorage.setItem('userId', userId);
     pwd1 = pwd1.value;
-    localStorage.setItem('pwd1', Password);
+    localStorage.setItem('pwd1', pwd1);
 });
-
 /**
  *  <!---비밀번호 잃어버린 부분-->
  */
-let pobtn = document.getElementById('pobtn');
+let sendeamil = document.getElementById('sendemail');
 let pwform = document.getElementById('pwform');
 
 pwform.addEventListener('submit', (e) => {
     e.preventDefault();
 });
-// [object HTMLInputElement] 수정예정
-pobtn.addEventListener('click', (e) => {
-    let pobtn = document.getElementById('pobtn');
-    pobtn = pobtn.value;
-    localStorage.setItem('pobtn', email);
+sendeamil.addEventListener('click', (e) => {
+
+    let email1 = document.getElementById('email1');
+    email1 = email1.value;
+    localStorage.setItem('email1', email1);
 });
