@@ -10,6 +10,7 @@ li{
 header .menu{
     float: right;
     margin-top: -6vw;
+    transform: translateX(-1vw);
 }
 
 header .menu ul li a{
