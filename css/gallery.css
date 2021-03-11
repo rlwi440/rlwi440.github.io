@@ -74,6 +74,8 @@ header .menu ul li.btn a{
 }
 
 .card .details{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 22px;
     position: absolute;
     top: 0;
     left: 0;
