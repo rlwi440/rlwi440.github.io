@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sing_UP Page</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="css/sign_up.css">
 </head>
 
@@ -25,14 +26,15 @@
             <div class="form">
                 <!--login start부분-->
 
-                <form class="form-login ">
+                <form class="form-login " id="formlo" name="formlo">
                     <h3>login</h3>
                     <div class="form-group">
-                        <input type="text" placeholder="이메일 입력*" class="form-control">
+                        <input type="text" placeholder="이메일 입력*" class="form-control" id="userId" id="userId"
+                            name="userId">
                     </div>
                     <!-- password구간  -->
                     <div class="form-group">
-                        <input type="password" placeholder="비밀번호*" class="form-control">
+                        <input type="password" placeholder="비밀번호*" class="form-control" id="pwd1" name="pwd1">
                     </div>
                     <div class="form-group">
                         <!--체크구간 -->
@@ -40,38 +42,38 @@
                             <input type="checkbox"> Remember Me
                         </label>
                     </div>
-                    <button type="button" class="submit-btn">Login</button>
+                    <button type="submit" class="submit-btn" onclick="btn1()" id="lobtn" name="lobtn">Login</button>
                     <p><a href="#" class="register-btn"> Register </a> | <a href="#" class="lost-pass-btn"> Lost your
                             password?</a> | <a href="index.html">Return?</a></p>
                 </form>
                 <!--login end -->
 
                 <!--Resister start부분-->
-                <form class="form-register form-hidden">
+                <form class="form-register form-hidden" id=form>
                     <h3>Member Register</h3>
                     <div class="form-group">
-                        <input type="text" placeholder="성*" class="form-control">
+                        <input type="text" placeholder="성*" class="form-control" id="firstname">
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="이름*" class="form-control">
+                        <input type="text" placeholder="이름*" class="form-control" id="name">
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="이메일 입력*" class="form-control">
+                        <input type="text" placeholder="이메일 입력*" class="form-control" id="email">
                     </div>
                     <!-- password구간  -->
                     <div class="form-group">
-                        <input type="password" placeholder="비밀번호*" class="form-control">
+                        <input type="password" placeholder="비밀번호*" class="form-control" id="pwd">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="주소" class="form-control">
+                        <input type="text" placeholder="주소" class="form-control" id="address">
                     </div>
 
 
                     <div class="form-group">
-                        <input type="tel" placeholder="핸드폰 번호*" class="form-control">
+                        <input type="tel" placeholder="핸드폰 번호*" class="form-control" id="phone">
                     </div>
-                    <button type="button" class="submit-btn">Register</button>
+                    <button type="submit" class="submit-btn" onclick="btn2()" id="send">Register</button>
                     <p><a href="#" class="login-btn"> Login </a> | <a href="#" class="lost-pass-btn"> Lost your
                             password?</a> | <a href="index.html">Return?</a></p>
                 </form>
@@ -79,7 +81,7 @@
 
 
                 <!---비밀번호 잃어버린 부분-->
-                <form class="form-lost-password  form-hidden" action="">
+                <form class="form-lost-password  form-hidden" action="" id="pwform" name="pwform">
                     <h3>비밀번호 잃어버렸나요?</h3>
                     <h5> 이메일을통해 새비밀번호 만들기링크를 보내드리겠습니다</h5>
 
@@ -87,7 +89,8 @@
                         <input type="text" placeholder="이메일입력*" class="form-control">
                     </div>
 
-                    <button type="button" class="submit-btn">Reset Password</button>
+                    <button type="submit" class="submit-btn" onclick="btn3()" id="pobtn" name="pobtn">Reset
+                        Password</button>
                     <p><a href="#" class="login-btn"> Login </a> | <a href="#" class="register-btn">Register</a></p>
                 </form>
                 <!--loset password  form end부분  -->
