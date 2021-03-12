@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana;
 }
 body{
     display: flex;
@@ -11,6 +10,9 @@ body{
     background: url(image/floor.jpg);
     background-attachment: fixed;
     background-size: cover;
+    font-size: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+
 }
 li{
     list-style: none;
@@ -117,6 +119,7 @@ border-bottom-right-radius: 0;
     box-sizing: border-box;
     padding: 20px;
 }
+
 .book1{
     position: absolute;
     bottom: 0;
@@ -342,7 +345,7 @@ border-bottom-right-radius: 0;
     content: '';
     width: 30px;
     height: 100%;
-    background:#ffffffd6;
+    background:#f2ede9eb;
     position: absolute;
     top: 0;
     left: 0;
@@ -410,7 +413,7 @@ border-bottom-right-radius: 0;
     content: '';
     width: 30px;
     height: 100%;
-    background:#9e9e9e;
+    background:#605253;
     position: absolute;
     top: 0;
     left: 0;
@@ -609,3 +612,7 @@ border-bottom-right-radius: 0;
     padding: 20px;
 }
 
+.cover-font-mark{
+    background-color: #8bc34a59;
+    border-radius: 5px;
+}

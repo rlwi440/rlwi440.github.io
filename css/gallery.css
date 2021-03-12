@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background:#eae3e3;
-    font-family: 'Laila', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 li{
     list-style: none;
@@ -75,8 +75,7 @@ header .menu ul li.btn a{
 }
 
 .card .details{
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 22px;
+    font-size: 16px;
     position: absolute;
     top: 0;
     left: 0;
