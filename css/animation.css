@@ -60,3 +60,11 @@ color:  transparent;
         filter: hue-rotate(360deg);
     }
 }
+@media( max-width:812px){
+    .text{
+        margin-top: 54vw;
+    }
+    .text h2{
+        font-size:4.7em;
+    }
+}
