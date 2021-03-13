@@ -132,8 +132,7 @@ margin-left: 45vw;
 .home .Hand img,.student span,.name span,.logo,.menu li,.small-intro span{
     opacity: 0;
 }
-/*모바일 웹부분*/
-
+/*모바일 웹부분구현완료*/
 @media( max-width:812px){
     header .menu ul li{
         margin-top: 3vw;

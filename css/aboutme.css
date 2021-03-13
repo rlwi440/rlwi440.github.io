@@ -263,7 +263,7 @@ margin-bottom: -120px;
     
 
 }
-/*media*/
+/*media빈응형 수정완료*/
 @media( min-width: 800px){
     .img{
         position: fixed;

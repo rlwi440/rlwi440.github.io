@@ -147,7 +147,7 @@ color:darkkhaki;
 display: block;
 font-size: 0.7em;
 }
-/* media 기능 */
+/* media 구현완료 */
 @media(min-width:720px){
      .cover{
         padding-top: 10%;

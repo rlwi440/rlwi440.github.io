@@ -92,7 +92,7 @@ header .menu ul li.btn a{
 .details-h2{
     background-color: #ffeb3b3b;
 }
-
+/*반응형 수정완료*/
 @media( max-width:812px){
     header .menu{
         margin-top: -15vw

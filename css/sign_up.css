@@ -189,7 +189,7 @@ body{
     opacity: 0;
     overflow: hidden;
 }
-/*media*/
+/*media 구현완료*/
 @media(max-width:767px){
     .wrapper .box{
         flex: 0 0 2%;

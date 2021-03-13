@@ -60,6 +60,7 @@ color:  transparent;
         filter: hue-rotate(360deg);
     }
 }
+/*media부분 수정완료*/
 @media( max-width:812px){
     .text{
         margin-top: 54vw;
