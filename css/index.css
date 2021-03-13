@@ -26,6 +26,7 @@ header .logo:hover{
 
 header .menu{
     float: right;
+    margin-top: -1vw;
 }
 header .menu ul li{
     display: inline-block;
@@ -64,6 +65,7 @@ border-bottom-right-radius: 0;
 .home .container{
     max-width: 90vw;
     margin: 0 auto;
+    
 }
 /*image 부분*/
 .home .person{
@@ -72,6 +74,8 @@ margin: 70px 50px 0;
 position: relative;
 border-radius: 70px 0 70px 0;
 overflow: hidden;
+margin-left: 45vw;
+
 }
 /*image 필터 밝기모드*/
 .home .person img{
@@ -112,7 +116,7 @@ overflow: hidden;
 .home-text p{
     max-width: 500px;
     font-size: 16px;
-    margin-top: 415px;
+    transform: translateY(5vw);
     /* font 수정 */
     font-family: 'Jua', sans-serif;
     
@@ -128,4 +132,15 @@ overflow: hidden;
 /*opacity:0*/
 .home .Hand img,.student span,.name span,.logo,.menu li,.small-intro span{
     opacity: 0;
+}
+/*모바일 웹부분*/
+
+@media( min-width: 720px){
+    header .menu ul li{
+        margin-top: 1.5vw;
+    }
+    .home-text p {
+        margin-top: 300px;
+    }
+    
 }
