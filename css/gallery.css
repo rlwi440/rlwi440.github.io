@@ -82,11 +82,14 @@ header .menu ul li.btn a{
     box-sizing: border-box;
     padding: 1.75vw;
     background-size: cover;
-    background: url(image/galley-font.jpg);
+
 }
 .details-mark{
     background-color: #8bc34a59;
     border-radius: 5px;
     
+}
+.details-h2{
+    background-color: #ffeb3b3b;
 }
 
