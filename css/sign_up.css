@@ -192,8 +192,7 @@ body{
 /*media*/
 @media(max-width:767px){
     .wrapper .box{
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 2%;
     }
 
 }
