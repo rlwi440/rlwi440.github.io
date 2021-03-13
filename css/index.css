@@ -26,7 +26,6 @@ header .logo:hover{
 
 header .menu{
     float: right;
-    margin-top: -1vw;
 }
 header .menu ul li{
     display: inline-block;
@@ -116,7 +115,7 @@ margin-left: 45vw;
 .home-text p{
     max-width: 500px;
     font-size: 16px;
-    transform: translateY(5vw);
+    transform: translateY(22vw);
     /* font 수정 */
     font-family: 'Jua', sans-serif;
     
@@ -135,12 +134,18 @@ margin-left: 45vw;
 }
 /*모바일 웹부분*/
 
-@media( min-width: 720px){
+@media( max-width:812px){
     header .menu ul li{
-        margin-top: 1.5vw;
-    }
-    .home-text p {
-        margin-top: 300px;
+        margin-top: 3vw;
     }
     
+    .home-text p {
+        margin-top: 283px;
+    }
+    .home .person {
+        margin-right: -7vw;
+    }
+    .home-text h1{
+        font-size: 0px;
+    }
 }
