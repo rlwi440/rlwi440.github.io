@@ -624,7 +624,7 @@ border-bottom-right-radius: 0;
         background-size: cover;
     }
     header .menu ul li:last-child {
-        margin-top: -93vw;
+        margin-top: -98vw;
         margin-left: 49.5vw
     }
     .book0{
@@ -659,13 +659,13 @@ border-bottom-right-radius: 0;
                 margin-left: -4vw;
     }
     .book6{
-        margin-top: 200vw;
-    margin-left: 177vw;
+        top: 200vw;
+    left:39vw;
     transform: rotate(-1deg ) skewX( 1deg);
 }
     .book7{
         transform: rotate( -1.5deg) skewX(3deg) ;
-    margin-bottom: -174vw;
-        margin-left: 177vw;
+    bottom: -174vw;
+        left:39vw;
     }
 }
