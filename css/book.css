@@ -662,13 +662,12 @@ border-bottom-right-radius: 0;
     }
     .book6{
         top: 242vw;
-    margin-left: 145vw;
-    transform: rotate(-3deg ) skewX( 1deg);
+    left:23vw;
+    transform: rotate(-3deg ) skewX( 7deg);
 }
     .book7{
         transform: rotate( -1.5deg) skewX(7deg) translate(20px,-20px);
     bottom: -247vw;
-    margin-left: 154vw;
+    left:27vw;
     }
-
 }
