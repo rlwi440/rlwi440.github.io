@@ -624,50 +624,48 @@ border-bottom-right-radius: 0;
         background-size: cover;
     }
     header .menu ul li:last-child {
-        margin-top: -98vw;
-        margin-left: 11.5vw
+        margin-top: -93vw;
+        margin-left: 49.5vw
     }
     .book0{
         margin-top: 25vw;
-        left: 69vw;
+        left: 91vw;
     transform: rotate(-6deg )skewX(1deg);
     }
     .book1{
-        bottom: 1vw;
-    margin-left: 48vw;
-    transform: rotate(-6deg)skewX(1deg);
+        bottom: 5vw;
+    margin-left:71vw;
+    transform: rotate(-4deg)skewX(1deg);
     }
 .book2{
-    transform: rotate(-6deg)skewX(1deg);
-            margin-left: -45vw;
+    transform: rotate(-3deg)skewX(1deg);
+            margin-left: -2vw;
             top: 34vw;
-            margin-left: -45vw;
-            top: 34vw; 
 }
     .book3{
         transform: rotate( -4deg )skewX( 1deg);
-                margin-left: -30vw;
-                top: 140vw;
+                margin-left: 12vw;
+                top: 122vw;
     }
     .book4{
-        transform: rotate(  -3.5deg) skewX(7deg);
-                top: 194vw;
-                margin-left: -28vw;
+        transform: rotate(  1.5deg) skewX(2deg);
+                top: 200vw;
+                margin-left: -3vw;
     }
 
     .book5{
-        transform: rotate( -6deg) skewX(1deg);
-                bottom: -157vw;
-                margin-left: -14vw;
+        transform: rotate( 1deg) skewX(1deg);
+                bottom: -176vw;
+                margin-left: -4vw;
     }
     .book6{
-        margin-top: 183vw;
-    left:23vw;
-    transform: rotate(-3deg ) skewX( 7deg);
+        margin-top: 200vw;
+    margin-left: 177vw;
+    transform: rotate(-1deg ) skewX( 1deg);
 }
     .book7{
-        transform: rotate( -1.5deg) skewX(7deg) translate(20px,-20px);
-    margin-bottom: -152vw;
-    left:27vw;
+        transform: rotate( -1.5deg) skewX(3deg) ;
+    margin-bottom: -174vw;
+        margin-left: 177vw;
     }
 }
