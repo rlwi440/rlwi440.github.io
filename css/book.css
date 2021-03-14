@@ -633,7 +633,7 @@ border-bottom-right-radius: 0;
     transform: rotate(-6deg )skewX(1deg);
     }
     .book1{
-        bottom: -21vw;
+        bottom: 1vw;
     margin-left: 48vw;
     transform: rotate(-6deg)skewX(1deg);
     }
@@ -647,27 +647,27 @@ border-bottom-right-radius: 0;
     .book3{
         transform: rotate( -4deg )skewX( 1deg);
                 margin-left: -30vw;
-                top: 257vw;
+                top: 140vw;
     }
     .book4{
         transform: rotate(  -3.5deg) skewX(7deg);
-                top: 144vw;
-                margin-left: -65vw;
+                top: 194vw;
+                margin-left: -28vw;
     }
 
     .book5{
         transform: rotate( -6deg) skewX(1deg);
-                bottom: -256vw;
-                margin-left: -42vw;
+                bottom: -157vw;
+                margin-left: -14vw;
     }
     .book6{
-        top: 242vw;
+        margin-top: 183vw;
     left:23vw;
     transform: rotate(-3deg ) skewX( 7deg);
 }
     .book7{
         transform: rotate( -1.5deg) skewX(7deg) translate(20px,-20px);
-    bottom: -247vw;
+    margin-bottom: -152vw;
     left:27vw;
     }
 }
