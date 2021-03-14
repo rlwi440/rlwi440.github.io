@@ -618,39 +618,57 @@ border-bottom-right-radius: 0;
 }
 /*반응형 웹만들기*/
 @media( max-width:812px){
-    .book7{
-        bottom: -165vw;
-        margin-left: 173vw;
-    }
-    .book5{
-        bottom: -160vw;
-    }
-    .book1{
-        bottom: 17vw;
-        margin-left: 66vw;
-    }
-    .book3{
-        margin-left: -30vw;
-    }
-    .book4{
-        top:177vw;
-        margin-left: -36vw;
-
-    }
-    .book2{
-        margin-left: -39vw;
-    }
-    .book6{
-        top:162vw;
-        margin-left: 139vw;
-    }
-    .book0{
-        margin-top: 5vw;
-        left: 83vw;
+    body{
+        /*fixed : 움직이지 않습니다*/
+        background-attachment: fixed;
+        background-size: cover;
     }
     header .menu ul li:last-child {
-        margin-top: -103vw;
-        margin-left: 49.5vw
+        margin-top: -98vw;
+        margin-left: 11.5vw
+    }
+    .book0{
+        margin-top: 25vw;
+        left: 69vw;
+    transform: rotate(-6deg )skewX(1deg);
+    }
+    .book1{
+        bottom: -21vw;
+    margin-left: 48vw;
+    transform: rotate(-6deg)skewX(1deg);
+    }
+.book2{
+    transform: rotate(-6deg)skewX(1deg);
+            margin-left: -45vw;
+            top: 34vw;
+            margin-left: -45vw;
+            top: 34vw; 
+}
+    .book3{
+        transform: rotate( -4deg )skewX( 1deg);
+                margin-left: -30vw;
+                top: 257vw;
+    }
+    .book4{
+        transform: rotate(  -3.5deg) skewX(7deg);
+                top: 144vw;
+                margin-left: -65vw;
+    }
+
+    .book5{
+        transform: rotate( -6deg) skewX(1deg);
+                bottom: -256vw;
+                margin-left: -42vw;
+    }
+    .book6{
+        top: 242vw;
+    margin-left: 145vw;
+    transform: rotate(-3deg ) skewX( 1deg);
+}
+    .book7{
+        transform: rotate( -1.5deg) skewX(7deg) translate(20px,-20px);
+    bottom: -247vw;
+    margin-left: 154vw;
     }
 
 }
