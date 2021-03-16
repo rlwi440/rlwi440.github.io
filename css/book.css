@@ -12,15 +12,13 @@ body{
     background-size: cover;
     font-size: 16px;
     font-family: 'Nanum Gothic', sans-serif;
-
 }
 li{
     list-style: none;
 }
-
-header .menu ul li:last-child{
     /* last-child 버튼 구간*/
-    margin-top: -20vw;
+header .menu ul li:last-child{
+    margin-top: -23.2vw;
    margin-left:86.5vw;
 }
 
@@ -41,14 +39,15 @@ header .menu ul li.btn a{
     /*bordert bottom radius부분 15px*/
     border-bottom-right-radius: 15px;
 }
-/*클릭시 radius 15px*/
+/* hover 구간 움직이는  클릭시  */
 header .menu ul li.btn a:hover{
+ /*클릭시 radius 15px*/
 border-radius: 15px;
 border-top-left-radius: 0;
 /*bordert bottom radius부분 15px*/
 border-bottom-right-radius: 0;
 }
-
+/* book0 구간  */
 .book0{
     position: absolute;
     top:0;
@@ -74,8 +73,6 @@ border-bottom-right-radius: 0;
     height: 100%;
     z-index: 1;
 }
-
-
 .book0::before{
     content: '';
     width: 30px;
@@ -97,7 +94,6 @@ border-bottom-right-radius: 0;
     left: 0;
     transform: skewY(-45deg) translate(15px,30px);
 }
-
 .book0 .cover{
     top: 0;
     left: 0;
@@ -107,7 +103,6 @@ border-bottom-right-radius: 0;
     position: relative;
     box-sizing: border-box;
     transform-origin: left;
-    
 }
 .book0:hover .cover {
     transform: rotateY(-135deg);
@@ -119,7 +114,7 @@ border-bottom-right-radius: 0;
     box-sizing: border-box;
     padding: 20px;
 }
-
+/* book1구간  */
 .book1{
     position: absolute;
     bottom: 0;
@@ -156,7 +151,6 @@ border-bottom-right-radius: 0;
     left: 0;
     transform: skewY(-45deg) translate(15px,30px);
 }
-
 .book1 .cover{
     top: 0;
     left: 0;
@@ -176,11 +170,9 @@ border-bottom-right-radius: 0;
     height: 100%;
     z-index: 1;
 }
-
 .book1:hover .cover{
     transform: rotateY(-135deg);
 }
-
 .cover-font1{
     position: absolute;
     top: 0;
@@ -188,8 +180,7 @@ border-bottom-right-radius: 0;
     box-sizing: border-box;
     padding: 20px;
 }
-
-
+/* book2구간  */
 .book2{
     position: absolute;
     width: 300px;
@@ -256,6 +247,7 @@ border-bottom-right-radius: 0;
     box-sizing: border-box;
     padding: 20px;
 }
+/* book3구간  */
 .book3{
     position: absolute;
     bottom: 0;
@@ -324,7 +316,7 @@ border-bottom-right-radius: 0;
     box-sizing: border-box;
     padding: 20px;
 }
-
+/* book4구간  */
 .book4{
     position: absolute;
     width: 300px;
@@ -393,7 +385,7 @@ border-bottom-right-radius: 0;
     box-sizing: border-box;
     padding: 20px;
 }
-
+/* book5구간  */
 .book5{
      position: absolute;
     bottom: 0;
@@ -475,7 +467,7 @@ border-bottom-right-radius: 0;
     box-sizing: border-box;
     padding: 20px;
 }
-
+/* book6구간  */
 .book6{
     position: absolute;
     width: 300px;
@@ -543,6 +535,7 @@ border-bottom-right-radius: 0;
     box-sizing: border-box;
     padding: 20px;
 }
+/* book7구간  */
 .book7{
     position: absolute;
    bottom: 0;
@@ -579,7 +572,6 @@ border-bottom-right-radius: 0;
     left: 0;
     transform: skewY(-45deg) translate(15px,30px);
 }
-
 .book7 .cover{
     top: 0;
     left: 0;
@@ -599,11 +591,9 @@ border-bottom-right-radius: 0;
     height: 100%;
     z-index: 1;
 }
-
 .book7:hover .cover{
     transform: rotateY(-135deg);
 }
-
 .cover-font7{
     position: absolute;
     top: 0;
@@ -611,7 +601,6 @@ border-bottom-right-radius: 0;
     box-sizing: border-box;
     padding: 20px;
 }
-
 .cover-font-mark{
     background-color: #8bc34a59;
     border-radius: 5px;
@@ -637,11 +626,11 @@ border-bottom-right-radius: 0;
     margin-left:71vw;
     transform: rotate(-4deg)skewX(1deg);
     }
-.book2{
+    .book2{
     transform: rotate(-3deg)skewX(1deg);
             margin-left: -2vw;
             top: 34vw;
-}
+    }
     .book3{
         transform: rotate( -4deg )skewX( 1deg);
                 margin-left: 12vw;
@@ -662,7 +651,7 @@ border-bottom-right-radius: 0;
         top: 200vw;
     left:39vw;
     transform: rotate(-1deg ) skewX( 1deg);
-}
+    }
     .book7{
         transform: rotate( -1.5deg) skewX(3deg) ;
     bottom: -174vw;

@@ -260,8 +260,6 @@ margin-bottom: -120px;
     /* font수정 */
     font-family: 'Laila', sans-serif;
     font-size: 16px;
-    
-
 }
 /*media빈응형 수정완료*/
 @media( min-width: 800px){
