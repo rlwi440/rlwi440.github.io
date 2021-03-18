@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <div class="wrapper">
         <div class="box">
             <div class="left">
@@ -80,11 +79,11 @@
 
 
                 <!---비밀번호 잃어버린 부분-->
-                <form class="form-lost-password  form-hidden" action="" id="pwform" name="pwform">
+                <form class="form-lost-password  form-hidden" action="javascript:saveEntry()" id="pwform" name="pwform">
                     <h3>비밀번호 잃어버렸나요?</h3>
                     <h5> 이메일을통해 새비밀번호 만들기링크를 보내드리겠습니다</h5>
                     <div class="form-group">
-                        <input type="text" placeholder="이메일입력*" class="form-control" id="email1">
+                        <input type="text" placeholder="이메일입력*" class="form-control" id="email1" name="email1">
                     </div>
                     <button type="submit" class="submit-btn" onclick="btn3()" id="sendemail" name="sendemail">Reset
                         Password</button>
@@ -93,7 +92,7 @@
                 <!--loset password  form end부분  -->
             </div>
         </div>
-        <script src="js/script.js"> </script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

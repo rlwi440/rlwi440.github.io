@@ -112,13 +112,10 @@ body{
 .wrapper .box.slide-active .form{
     right: 50%;
 }
-
 .wrapper .box .form  h3{
     font-size: 20px;
     color: black;
     margin:  0 0 16px;
-
-
 }
 .wrapper .box .form .form-group{
     margin-bottom: 15px;
@@ -139,7 +136,6 @@ body{
     /** 그림자 효과*/
     border-bottom: 2px solid #bbbbbb;
     padding: 0;
-
 }
 .wrapper .box .form .form-control:focus{
     outline: none;

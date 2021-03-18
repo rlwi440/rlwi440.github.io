@@ -5,9 +5,6 @@ const loginBtn = document.querySelectorAll(".login-btn"),
     formlogin = document.querySelector(".form-login"),
     formregister = document.querySelector(".form-register"),
     formlostpassword = document.querySelector(".form-lost-password");
-
-
-
 registerBtn.forEach((btn) => {
     btn.addEventListener("click", () => {
         /**slide-active */
@@ -17,7 +14,6 @@ registerBtn.forEach((btn) => {
         formlostpassword.classList.add("form-hidden");
     });
 });
-
 loginBtn.forEach((btn) => {
     btn.addEventListener("click", () => {
         /**slide-active */
@@ -27,7 +23,6 @@ loginBtn.forEach((btn) => {
         formlostpassword.classList.add("form-hidden");
     });
 });
-
 lostpassBtn.forEach((btn) => {
     btn.addEventListener("click", () => {
         /**slide-active */
@@ -60,8 +55,6 @@ function btn3() {
     });
 
 }
-
-
 //local storage 
 // <!--Resister start부분-->
 let sendbtn = document.getElementById('send');
@@ -93,12 +86,9 @@ sendbtn.addEventListener('click', (e) => {
     phone = phone.value;
     localStorage.setItem('phone', phone);
 });
-
 //    login start부분
 let lobtn = document.getElementById('lobtn');
 let formlo = document.getElementById('formlo');
-
-
 formlo.addEventListener('submit', (e) => {
     e.preventDefault();
 });
