@@ -20,14 +20,12 @@ header .menu ul li:last-child{
     margin-top: 1vw;
    margin-right:1.5vw;
 }
-
 header .menu ul li a{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     transition:  all ease 0.5s;
 }
-
 /*header button*/
 header .menu ul li.btn a{
     background-color:#009688f0;
