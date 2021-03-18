@@ -6,7 +6,9 @@
 # 2.핵심구현기술
 ### 메인페이지 
 ![메인페이지](https://user-images.githubusercontent.com/62824389/111612848-3e923680-8821-11eb-932b-67541719beb5.gif)
-![1](https://user-images.githubusercontent.com/62824389/111612863-42be5400-8821-11eb-848f-c50a7db80408.gif)
+![Mainpage(loading)](https://user-images.githubusercontent.com/62824389/111613030-6f726b80-8821-11eb-8cbd-7656822a8cd8.gif)
+![Mainpage(loaging2)](https://user-images.githubusercontent.com/62824389/111613033-70a39880-8821-11eb-80bf-2758f188adc4.gif)
+
 ---
 수정예정 
 # 5.역할 및 담당기능
