@@ -2,7 +2,9 @@
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/62824389/111893986-4b45a300-8a4a-11eb-9e1a-60ed238e8bc7.jpg)](https://www.youtube.com/watch?v=ukYkSyBNZZY "Video Title")
 
 개인홈페이지를 구현하기위한 반응형 웹페이지 와  
+
 HTML+CSS기반으로 개인홈페이지를 제작했습니다.
+
 **2020.03.07~ 2020.03. 20  HTML+CSS 구현한 개인홈페이지 입니다.**
 
 # 2.프로젝트 요구사항
@@ -17,3 +19,8 @@ HTML+CSS기반으로 개인홈페이지를 제작했습니다.
 반응형 웹 디자인(Responsive Web Design)을 하나의 웹사이트에서 PC ,스마트폰 다양한 디바이스의 해상도에 따라 적절한 레이아웃을 제공하고 기술이며, CSS를통해 디바이스 해상도에 맞는 레이아웃을 구현하기 위한 개인홈페이지를 제작 하게되었습니다.
 
 ---
+# 4.핵심구현기술 (반응형 웹 )
+
+---
+
+### 메인 페이지
