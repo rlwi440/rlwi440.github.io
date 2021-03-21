@@ -1,7 +1,3 @@
----
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3789b92-1476-47de-b11d-c13cb0dfadbc/Background.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3789b92-1476-47de-b11d-c13cb0dfadbc/Background.gif)
-
 # 1. **PREVIEW & 개요**
 
 ---
