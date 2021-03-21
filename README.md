@@ -54,3 +54,52 @@ HTML+CSS기반으로 개인홈페이지를 제작했습니다.
 
 ### 갤러리  페이지
 
+
+```
+갤러리페이지 (모바일)
+```
+![취미갤러리](https://user-images.githubusercontent.com/62824389/111894812-551ed480-8a51-11eb-8980-d5c58a7f3244.gif)
+```
+갤러리 페이지 (홈페이지)
+```
+![Gallery(first)](https://user-images.githubusercontent.com/62824389/111894804-3c162380-8a51-11eb-9d81-a3c5fe88827c.gif)
+![Gallery(second)](https://user-images.githubusercontent.com/62824389/111894807-40424100-8a51-11eb-8379-6c77ce6c866f.gif)
+
+```
+BOOK페이지 (모바일)
+```
+![book페이지](https://user-images.githubusercontent.com/62824389/111894820-60720000-8a51-11eb-83d6-8a8e84f797b1.gif)
+```
+BOOK 페이지 (홈페이지)
+```
+![bookpage(first)](https://user-images.githubusercontent.com/62824389/111894825-6a93fe80-8a51-11eb-8c8f-8daaf3393def.gif)
+![bookpage(second)](https://user-images.githubusercontent.com/62824389/111894826-6bc52b80-8a51-11eb-882a-6cb4c1d53ebe.gif)
+
+```
+RoadMap페이지 (모바일)
+```
+![RoadMap](https://user-images.githubusercontent.com/62824389/111894836-88616380-8a51-11eb-8004-2414d1cd65e9.gif)
+```
+RoadMap 페이지 (홈페이지)
+```
+![RoadMap(window)](https://user-images.githubusercontent.com/62824389/111894833-826b8280-8a51-11eb-90ad-a235329a7c55.gif)
+```
+회원가입페이지 (모바일)
+```
+![회원가입페이지](https://user-images.githubusercontent.com/62824389/111894979-d2971480-8a52-11eb-9606-5ec5a8a5571a.gif)
+
+```
+회원가입 페이지 (홈페이지)
+```
+![회원가입](https://user-images.githubusercontent.com/62824389/111894992-f65a5a80-8a52-11eb-85e7-7f7a35291b26.gif)
+![회원가입(local)](https://user-images.githubusercontent.com/62824389/111894994-f78b8780-8a52-11eb-8fc7-adb42267a8e4.gif)
+
+```
+Keep In Touch페이지  (모바일)
+```
+![KeepIntouch](https://user-images.githubusercontent.com/62824389/111894982-df1b6d00-8a52-11eb-815a-1453176bc3ca.gif)
+
+```
+Keep In Touch 페이지 (홈페이지)
+```
+![keep in touch](https://user-images.githubusercontent.com/62824389/111895004-06723a00-8a53-11eb-865c-99208b2567d7.gif)
