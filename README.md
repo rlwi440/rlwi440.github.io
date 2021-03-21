@@ -1,5 +1,4 @@
 # 1. **PREVIEW & 개요**
----
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/62824389/111893986-4b45a300-8a4a-11eb-9e1a-60ed238e8bc7.jpg)](https://www.youtube.com/watch?v=ukYkSyBNZZY "Video Title")
 
 
