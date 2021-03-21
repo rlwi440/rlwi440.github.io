@@ -32,8 +32,6 @@ HTML+CSS기반으로 개인홈페이지를 제작했습니다.
 메인페이지(홈페이지)
 ```
 ![Mainpage(loaging2)](https://user-images.githubusercontent.com/62824389/111894414-de340c80-8a4d-11eb-907c-9064d73c805f.gif)
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e3879c0a-8b01-4090-9dec-b93b3128603c/AC_20210314-163922.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e3879c0a-8b01-4090-9dec-b93b3128603c/AC_20210314-163922.gif)
-
 ---
 
 메인페이지는  anime 를 이용한 Text animaiton 을 이용하였고,
