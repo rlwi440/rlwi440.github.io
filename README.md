@@ -1,9 +1,8 @@
 # 1. **PREVIEW & 개요**
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/62824389/111893986-4b45a300-8a4a-11eb-9e1a-60ed238e8bc7.jpg)](https://www.youtube.com/watch?v=ukYkSyBNZZY "Video Title")
+
 개인홈페이지를 구현하기위한 반응형 웹페이지 와  
-
 HTML+CSS기반으로 개인홈페이지를 제작했습니다.
-
 **2020.03.07~ 2020.03. 20  HTML+CSS 구현한 개인홈페이지 입니다.**
 
 # 2.프로젝트 요구사항
