@@ -25,5 +25,4 @@ HTML+CSS기반으로 개인홈페이지를 제작했습니다.
 
 ### 메인 페이지
 
-![메인페이지](https://user-images.githubusercontent.com/62824389/111894384-af1d9b00-8a4d-11eb-9072-715ebd66b983.gif)![Uploading Mainpage(loaging2).gif…]()
-
+![메인페이지](https://user-images.githubusercontent.com/62824389/111894384-af1d9b00-8a4d-11eb-9072-715ebd66b983.gif)![Mainpage(loaging2)](https://user-images.githubusercontent.com/62824389/111894414-de340c80-8a4d-11eb-907c-9064d73c805f.gif)
