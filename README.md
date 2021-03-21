@@ -15,4 +15,4 @@ HTML+CSS기반으로 개인홈페이지를 제작했습니다.
 - 웹 스토리지 의 특성과 사용법
 
 ## 3.구상적인 생각 (초기)
-![PREVIEW 배경화면](https://user-images.githubusercontent.com/62824389/111893818-b8583900-8a48-11eb-9a95-edeae2c81d20.jpg){: width="300" height ="100"}
+![PREVIEW 배경화면](https://user-images.githubusercontent.com/62824389/111893818-b8583900-8a48-11eb-9a95-edeae2c81d20.jpg)
