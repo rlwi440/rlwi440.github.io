@@ -48,4 +48,9 @@ HTML+CSS기반으로 개인홈페이지를 제작했습니다.
 ```
 ![aboutMe(first)](https://user-images.githubusercontent.com/62824389/111894505-7df19a80-8a4e-11eb-8ede-03c984c569c9.gif)
 ![aboutMe(web)](https://user-images.githubusercontent.com/62824389/111894515-8053f480-8a4e-11eb-96ce-5ae44f8a603f.gif)
+---
+
+자기소개 페이지는 animation과 position 을 이용한 기법을 사용하였으며  job-list, profile-section부분을 중점적으로 기술구현 을 하였습니다.
+
+### 갤러리  페이지
 
