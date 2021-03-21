@@ -1,7 +1,7 @@
 # 1. **PREVIEW & 개요**
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/62824389/111893986-4b45a300-8a4a-11eb-9e1a-60ed238e8bc7.jpg)](https://www.youtube.com/watch?v=ukYkSyBNZZY "Video Title")
 ```
-유튜브 
+클릭시 유튜브로 넘어갑니다.
 ```
 
 개인홈페이지를 구현하기위한 반응형 웹페이지 와  
