@@ -64,7 +64,11 @@ HTML+CSS기반으로 개인홈페이지를 제작했습니다.
 ```
 ![Gallery(first)](https://user-images.githubusercontent.com/62824389/111894804-3c162380-8a51-11eb-9d81-a3c5fe88827c.gif)
 ![Gallery(second)](https://user-images.githubusercontent.com/62824389/111894807-40424100-8a51-11eb-8379-6c77ce6c866f.gif)
+---
 
+갤러리 페이지는 CSS{transform-style:preserve-3d }을 사용하여 개인적인 취미생활 간략하게 설명을 한 공간입니다.  설명과 취미 겉표자사진들이 첨부되어있습니다
+
+### book 페이지
 ```
 BOOK페이지 (모바일)
 ```
@@ -74,7 +78,11 @@ BOOK 페이지 (홈페이지)
 ```
 ![bookpage(first)](https://user-images.githubusercontent.com/62824389/111894825-6a93fe80-8a51-11eb-8c8f-8daaf3393def.gif)
 ![bookpage(second)](https://user-images.githubusercontent.com/62824389/111894826-6bc52b80-8a51-11eb-882a-6cb4c1d53ebe.gif)
+---
 
+book 페이지 Transform 을이용한 좋아하는 책의 리뷰와 개인적으로 공부를 했던 문제집예제를 3D와 기울이는 기법 으로  이용한 보기쉽게 설명과 겉표지를 만들어 구현을 하였습니다.
+
+### 개발자 RoadMap 페이지
 ```
 RoadMap페이지 (모바일)
 ```
@@ -83,6 +91,11 @@ RoadMap페이지 (모바일)
 RoadMap 페이지 (홈페이지)
 ```
 ![RoadMap(window)](https://user-images.githubusercontent.com/62824389/111894833-826b8280-8a51-11eb-90ad-a235329a7c55.gif)
+---
+
+애플워치를 생각하며 만든  개발자 로드맵이며  border-radius  효과를 넣으며 둥글게 하는효과와  가상클래스를 이용하면서  홀수 짝수를 년도별로 구별을하였습니다.
+
+### 회원가입 페이지
 ```
 회원가입페이지 (모바일)
 ```
@@ -94,6 +107,12 @@ RoadMap 페이지 (홈페이지)
 ![회원가입](https://user-images.githubusercontent.com/62824389/111894992-f65a5a80-8a52-11eb-85e7-7f7a35291b26.gif)
 ![회원가입(local)](https://user-images.githubusercontent.com/62824389/111894994-f78b8780-8a52-11eb-8fc7-adb42267a8e4.gif)
 
+---
+
+회원가입 화면입니다. 버튼을이용하여 slide 효과를 주었고,  저장기록(web-storage)  은localstorage 를이용한 DB를구현하였습니다.
+
+### Keep in tiuch 페이지
+
 ```
 Keep In Touch페이지  (모바일)
 ```
@@ -103,3 +122,39 @@ Keep In Touch페이지  (모바일)
 Keep In Touch 페이지 (홈페이지)
 ```
 ![keep in touch](https://user-images.githubusercontent.com/62824389/111895004-06723a00-8a53-11eb-865c-99208b2567d7.gif)
+
+---
+
+이벤트화면 입니다 미디어 아트를 영감을 받아 컬러감(색조,색상)을 주었습니다 각도를 지정해 수직방향으로 기울이는기법을 사용하였습니다.
+
+# 5.역할 및 담당기능
+
+---
+
+### **배기원**
+
+ **담당기능:HTML+CSS  반응형 웹디자인** 
+
+---
+
+# 5.구현기간
+
+---
+
+### 프로젝트 기획기간  2021/03/ 07~ 2021/03/08
+
+### 프로젝트 구현기간  2021/03/ 07~ 2021/03/19
+
+# 6.사용 언어및 도구
+
+---
+
+### O/S:Windows 10
+
+### 개발언어:HTML+CSS
+
+### IDE:visual studio code
+
+# 7.프로젝트 참여 소감
+
+---
