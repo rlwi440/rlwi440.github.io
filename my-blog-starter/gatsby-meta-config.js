@@ -1,5 +1,5 @@
 module.exports = {
-  title: `CleanDev.io`,
+  title: `rlwi440.io`,
   description: `Blog posted about ...`,
   author: `[Clean Dev]`,
   introduction: `Web Engineer 인터디밸로퍼 Vue.js JavaScript `,
