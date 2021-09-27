@@ -80,6 +80,7 @@
   "scripts": {
     "post": "gatsby-post-gen",
     "dev": "gatsby develop",
+    "copy": "cp CNAME public/",
     "deploy": "gh-pages -d dist",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
