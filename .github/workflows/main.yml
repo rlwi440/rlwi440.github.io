@@ -25,7 +25,7 @@ jobs:
       - name: deploy
         uses: maxheld83/ghpages@v0.2.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.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}}
           # API_KEY 에는 자신이 secret을 생성할 때 설정한 이름으로 넣어야 한다
           GH_PAT: ${{ secrets.GH_TOKEN }}
           BUILD_DIR: 'public/'
