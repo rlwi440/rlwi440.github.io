@@ -15,12 +15,12 @@ jobs:
 
       - name: gatsby build
         env:
-          GH_API_KEY: ${{ GIST_ID }}
+          GH_API_KEY: ${{ secrets.GITHUB }}
         run: yarn build
 
       - name: deploy
         uses: maxheld83/ghpages@v0.2.1
         env:
-          GITHUB_TOKEN: ${{ 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 }}
-          GH_PAT: ${{ GIST_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GITHUB }}
           BUILD_DIR: 'public/'
