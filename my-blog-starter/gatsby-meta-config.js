@@ -13,7 +13,12 @@ module.exports = {
     instagram: ``, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: [
+              `blog`,
+              'clean-dev',
+              'rlwi440',
+              '깔끔한청년'
+            ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: 'KiWonBae/gatsby-starter-bee', // Your repository for archive comment
