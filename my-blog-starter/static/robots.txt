@@ -1,2 +1,5 @@
 User-agent: *
 Disallow:
+
+ALLOW: /
+sitemap: https://rlwi440.github.io/sitemap.xml
