@@ -20,12 +20,12 @@ jobs:
         run: yarn build
         env:
           # API_KEY 에는 자신이 secret을 생성할 때 설정한 이름으로 넣어야 한다
-          GH_API_KEY: ${{ GIST_ID }}
+          GH_API_KEY: ${{GH_TOKEN}}
 
       - name: deploy
         uses: maxheld83/ghpages@v0.2.1
         env:
-          GITHUB_TOKEN: ${{ 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 }}
+          GITHUB_TOKEN: ${{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}}
           # API_KEY 에는 자신이 secret을 생성할 때 설정한 이름으로 넣어야 한다
-          GH_PAT: ${{ GIST_ID }}
+          GH_PAT: ${{GH_TOKEN}}
           BUILD_DIR: 'public/'
