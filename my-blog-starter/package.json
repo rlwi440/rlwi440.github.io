@@ -8,7 +8,7 @@
     "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
   },
   "dependencies": {
-    "gatsby": "^2.2.8",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-feed": "^2.1.0",
     "gatsby-plugin-google-analytics": "^2.0.17",
@@ -81,7 +81,7 @@
     "post": "gatsby-post-gen",
     "dev": "gatsby develop",
     "copy": "cp CNAME public/",
-	  "deploy": "gatsby build && npm run copy && gh-pages -d public -b gh-pages",
+    "deploy": "gatsby build && npm run copy && gh-pages -d public -b gh-pages",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
