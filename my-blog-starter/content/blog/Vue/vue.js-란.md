@@ -1,7 +1,7 @@
 ---
 title: Vue Basic(SPA 와  History mode 와 Hash mode)
 date: 2021-09-27 22:09:48
-category: Vue
+category: vue
 thumbnail: { thumbnailSrc }
 draft: false
 ---
