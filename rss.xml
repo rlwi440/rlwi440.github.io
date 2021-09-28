@@ -1,4 +1,282 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Sep 2021 04:04:13 GMT</lastBuildDate><item><title><![CDATA[JavaScript 문법공부 (Const,let,var)]]></title><description><![CDATA[변수 선언방식은 총 3 가지 가 있습니다. var,let,const 차이점 5가지   1.중복선언 가능여부   2.재활당 가능여부   3.변수 스코프 유효범위   4.변수 호이스팅 방식   5.전역객체 프로퍼티 여부   1.중복선언 1.var…]]></description><link>https://rlwi440.github.io/JavaScript/variable.basic/</link><guid isPermaLink="false">https://rlwi440.github.io/JavaScript/variable.basic/</guid><pubDate>Tue, 28 Sep 2021 12:10:01 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Sep 2021 14:49:37 GMT</lastBuildDate><item><title><![CDATA[동기 와 비동기 처리의 이해]]></title><description><![CDATA[1.동기식 과 비동기식 처리 1-1. 동기식 처리  코드가 작성된 순서대로 실행됩니다.  1-2.비동기식 처리 
+코드가 작성된 순서와는 상관없이 지정된 순서에 의해 실행됩니다.
+비동기 처리 로는   등이 있습니다.  callback…]]></description><link>https://rlwi440.github.io/Vue/Async-Await/</link><guid isPermaLink="false">https://rlwi440.github.io/Vue/Async-Await/</guid><pubDate>Tue, 28 Sep 2021 22:10:21 GMT</pubDate><content:encoded>&lt;h3 id=&quot;1동기식-과-비동기식-처리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1%EB%8F%99%EA%B8%B0%EC%8B%9D-%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%8B%9D-%EC%B2%98%EB%A6%AC&quot; aria-label=&quot;1동기식 과 비동기식 처리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.동기식 과 비동기식 처리&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;1-1. 동기식 처리 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;코드가 작성된 순서대로 실행됩니다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function a(){
+  console.log(&apos;a&apos;)
+}
+
+function b(){
+  console.log(&apos;b&apos;)
+}
+a() //a
+b() //b&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;1-2.비동기식 처리
+코드가 작성된 순서와는 상관없이 지정된 순서에 의해 실행됩니다.
+비동기 처리 로는 &lt;code class=&quot;language-text&quot;&gt;callback&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;promise&lt;/code&gt; 등이 있습니다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;callback&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#callback&quot; aria-label=&quot;callback permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;callback&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;재귀함수와 같은 형태로 하나의 함수 안에서 다른함숭를 호출하는 방식으로 순서를 부여한다.   &lt;/li&gt;
+&lt;li&gt;호출하는 함수가 많아질수록 코드의 의존성이 올라가며, 가독성과 효율성이 떨어진다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function a(cb){
+  setTimeout(function(){
+    console.log(&apos;a&apos;)
+    cb()
+  },1000)
+}
+
+function b(cb){
+  setTimeout(function(){
+    console.log(&apos;b&apos;)
+    cb()
+  },1000)
+}
+function c(cb){
+  setTimeout(function(){
+    console.log(&apos;c&apos;)
+    cb()
+  },1000)
+}
+function d(cb){
+  setTimeout(function(){
+    console.log(&apos;d&apos;)
+    cb()
+  },1000)
+}
+
+a(function(){
+  b(function(){
+    c(function(){
+      d()  // 가독성 과 효율성이 떨어진다.
+    })
+  })
+})&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;promise&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#promise&quot; aria-label=&quot;promise permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;promise&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;promise 객체와 resolve를 할당받은 메소드만이 async와 await 키워드를 사용할 수 있다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;promise 객체를 부여받은 메소드는 내부에는 resolve() 메소드를 부여한다.&lt;/p&gt;
+&lt;h3 id=&quot;resolve&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#resolve&quot; aria-label=&quot;resolve permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;resolve&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;로직이 마무리 가 되었을때 실행되는 구조입니다.&lt;/p&gt;
+&lt;h3 id=&quot;reject&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reject&quot; aria-label=&quot;reject permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;reject&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;비동기처리에서 error 가 발생했을때 갖는구조 입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  function a(){
+    return new Promise((resolve,reject) =&gt; {
+      if(isError){
+        reject(Error)
+      }
+      setTimeout(()=&gt;{
+        console.log(&apos;a&apos;)
+        resolve(&apos;done&apos;)
+      },1000)
+    })
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;promise-에외처리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#promise-%EC%97%90%EC%99%B8%EC%B2%98%EB%A6%AC&quot; aria-label=&quot;promise 에외처리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;promise 에외처리&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;promise의 기본적인 예외처리는 try,catch를 사용한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  async function asyncFunc(){
+    try{
+      const res=  await a () 
+      console.log(res)
+    } catch (error) {
+      console.log(error)
+      alert(error.message)
+    } finally{
+      console.log(&apos;done!&apos;)
+    }
+  }
+
+  asyncFunc()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;async-await&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#async-await&quot; aria-label=&quot;async await permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;async-await&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;같은 개념이라고 생각하시면 편합니다.&lt;/li&gt;
+&lt;li&gt;async -await 을 사용하는이유 가 &lt;code class=&quot;language-text&quot;&gt;가독성&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;코드가 간결해 질수가있다&lt;/code&gt;는 장점들이 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function a(){
+  return new Promise( resolve =&gt; {
+    setTimeout(function(){
+      console.log(&apos;a&apos;)
+      resolve()
+    },1000)
+  })
+}
+
+function b() {
+  return new Promise( resolve =&gt;{
+    setTimeout(function(){
+      console.log(&apos;b&apos;)
+      resolve()
+    },1000) 
+  })
+}
+function c() {
+  return new Promise( resolve =&gt;{
+    setTimeout(function(){
+      console.log(&apos;c&apos;)
+      resolve()
+    },1000) 
+  })
+}
+function d() {
+  return new Promise( resolve =&gt;{
+    setTimeout(function(){
+      console.log(&apos;d&apos;)
+      resolve()
+    },1000) 
+  })
+}
+a()
+  .then(() =&gt; b())
+  .then(() =&gt; c())
+  .then(() =&gt; d())&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;async-await없아-비동기처리-하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#async-await%EC%97%86%EC%95%84-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC-%ED%95%98%EA%B8%B0&quot; aria-label=&quot;async await없아 비동기처리 하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;async, await없아 비동기처리 하기&lt;/h3&gt;
+&lt;p&gt; -then(): resolve() 가 실행되고 난 뒤 동작할 코드 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;catch(): 에러 또는 연산실패 를 동작할 코드&lt;/li&gt;
+&lt;li&gt;finally(): promise의 결과에 상관없이  promise 실행후 동작할 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;
+ function a(){
+   return new Promise((resolve,reject) =&gt; {
+     if(isError){
+       reject(Error)
+     }
+     setTimeout(()=&gt;{
+       console.log(&apos;a&apos;)
+       resolve(&apos;done&apos;)
+     },1000)
+   })
+ }
+
+ a() 
+ .then((res)=&gt;{
+   console.log(res)
+ })
+ .catch((error)=&gt;{
+     console.log(error)
+     alert(error.message)
+ })
+ .finally(()=&gt;{
+
+ })&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;정리한-이유&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EB%A6%AC%ED%95%9C-%EC%9D%B4%EC%9C%A0&quot; aria-label=&quot;정리한 이유 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정리한 이유&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1.동기 와 비동기 처리의 이해 를 정리하는 글을 올리게되었습니다.&lt;br&gt;
+2.실무에서 많이 사용하는 예제이며 ,핵심내용이기에 정리 해보았습니다.
+3.MovieApp을 만들면서 필요한 예제들은 프로젝트 업로드 후 정리해서 코드와 같이 업로드 하겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;참조 :&lt;a href=&quot;https://devraphy.tistory.com/229&quot;&gt;Async&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Vue.js 2.0 라이프사이클]]></title><description><![CDATA[1.Vue.js의 제일 기초적인 개념적인 내용입니다. 라이플사이클은 크게    로 나눌수가있습니다. 1.Create   인스턴스가 작성된후 동기적으로 호출된다.
+  부모,자식 관계 컴포넌트가 렌더링 될때 mounted…]]></description><link>https://rlwi440.github.io/Vue/라이프사이클/</link><guid isPermaLink="false">https://rlwi440.github.io/Vue/라이프사이클/</guid><pubDate>Tue, 28 Sep 2021 21:10:05 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 253.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAzCAIAAAAYQr/UAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF4klEQVRIx5VW+28UVRTuP2P4xRgT9QfiKxof4SVEwqOCBgSRgIkxEiQFK4IQi6UIfRARIhIlkIAChdJC27UP6DZsaWt5tN0+drf7mt2d2Z333Od4ZmZburDb1pubyczc89177jnfd+4ts4s1bnPdMBVVl1XVtJBdopU99c04h2coFl+z/ZuPv6ws31mxY2+VYVnOjO7QXGDPIpWWKg/V7ztUX3Gw9vjJPwmhCwO7TxFpYUsMaelxNQUvGrFKuw1zEsIphU6ws8N9A5cWXd39RssPrzYfeO7KrgshP/yknBUBU03HiSSKx6HjVMo2zJCavicE78aH/cJYQJyUkOZFsQiYWRZOpXFSQMkkFSVs6NdCgTPD7edHu/8Y6z491tGdGp2JZTG3MbYZY5TahJgUf3Hv3HJfzbrOE2s7jr/XWlX9sGkOtzWqqlY0BotTRaWKIhpyUkmHVXXK0JOGpGKjZMDAbQBjQcAZkakaM/OxpelBmgt6ri2IJJ4d08JkcD9uW4J9q8jDam4IpkVyisJ5QbLLCmBOdzbGs0OsewNveZ22vMn827gyyZwRRhmbjS4rTm3bxgRrE41UuDPDPFFWRienEmkRYTIH2GmE2YrwiKhTM3tRdSMqpDJZGZYvBXYGuJHgQ4eZbxn1reQjddwSPfP53HbHeO4B6/mM3n6L3nqTB76m8hh2GAACoUWi7YTDnZNx5hhx5wWPX8CRm2BOgPuM5uNZcmUgEWIczBmsw3RiG8TmxPl0doO5TQvz7NE9bmSbooNXxgNXJwKtiQfN8UERqZ7FsBL/K3LvRnTg4sjdSxO916P9OkFebMo8xv4dCbzS9N3y9qOrfMeWtv308o3KLmHEAx991PR8456Vvpo1HSeA52AW1jKeTvLgK5HA4pv7P3DBMMWL1/d6SoL28+OWl258u76zbn1X3ZK2I4ubD0R00ct83m0J6X1SaCAb8QvBATHcJ06qxPTACTMHku4XQ/5k8L40CaOIkUJJsrzcmAUlxQkMwljWdegEsuRE3HG0mKp0HQmCGYubUEzEDNZUZy5uY0Swy0SYHHYHm/R6Idg0cTKJojHoOJ3hpqlYWlrPxeVMQs1mEMjVnF+SHvUwo18Fzm/obtjh/217z5l1nXWVA5c9Ij1Vxspm69HbuUHR0rbqFxorlrVXQ/AXXdtd3tXgJZbnZcs9FhdZGbZ3KuirHLx8+N9rVUON+/ovnRvvnh7lRQJGMhkrFLLCESKKUNLyZAUdkAJCQpG1JkPWxCR0ImbyAaO5HFQ/KGM0JzPDpFBHKTFMOOQQvEuyIuZkzTSRkDSjMSuRQIkkWJYsBtAQpQCFJmSkcDxJLPJU2S8rLGBPgsE0LV53Kn76LLXyxfRi2F/7+FbD8O3LoV5wB8yKrOzFXG7vCG74NLhxq9Y3AJ8WRit8NUvbjqxory7vqoeDoUQNc1cGwoR2VYT3fg/F3C1pdPPdX1f/c3xdR+22njPAhbkKoAMwDGyYbDqFkqnFlIyAVGVaMyXBwOpERkpnZRPOEwg9oc4Mqm4rqm0hyC6cM9M1DNyArQL5p+uqYVrhuBCKJSBheYYwRmQFUm0Gg0SS4EhzDzpdt6aiVmQKTUVRIgF/beAGLIXJjFSnBWsxTYeDDY50hpBHEgsYRtLQ0/DCEZKRkTbluCYl9FzaUv6HqiANW3pOv992ZNOdXzZ2Nbx96/Ce+xe90RKqmgWGArS2s26F7+gn3SfLO+vfba3a2Xs2L0k+H9ggaE1H7Tu3f/ywvWZ1+7HXmg/u6P19vpWn9QwWw3L8vhQKKLE+OQbVb0JJ2bbN5z/cZ82ltXboXf45WJSXJOQNUmVFIhBzKiuwSLbrzvBHm0c2blGHHrpCYcXB3LIAjGJOASQZEdIIP7X+weCmz8e37gTdz6hlwW5D5IZHTRe5gAtNCYt59pynnnOHo9xrrpPMvY1yPvPPMWCz/H8CRgjpuq7ADc5tsizDU5KkbDbrvahwcXfbDFWeuay703sr0MLGnonZf1W4GjjCC5KEAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;lifecycle&quot;
+        title=&quot;lifecycle&quot;
+        src=&quot;/static/6f2c97f045ba988851b02056c01c8d62/c1b63/lifecycle.png&quot;
+        srcset=&quot;/static/6f2c97f045ba988851b02056c01c8d62/5a46d/lifecycle.png 300w,
+/static/6f2c97f045ba988851b02056c01c8d62/0a47e/lifecycle.png 600w,
+/static/6f2c97f045ba988851b02056c01c8d62/c1b63/lifecycle.png 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1vuejs의-제일-기초적인-개념적인-내용입니다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1vuejs%EC%9D%98-%EC%A0%9C%EC%9D%BC-%EA%B8%B0%EC%B4%88%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%85%90%EC%A0%81%EC%9D%B8-%EB%82%B4%EC%9A%A9%EC%9E%85%EB%8B%88%EB%8B%A4&quot; aria-label=&quot;1vuejs의 제일 기초적인 개념적인 내용입니다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.Vue.js의 제일 기초적인 개념적인 내용입니다.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;라이플사이클은 크게 &lt;code class=&quot;language-text&quot;&gt;Create&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;Mount&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;Update&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;Destory&lt;/code&gt;로 나눌수가있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;1create&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1create&quot; aria-label=&quot;1create permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.Create&lt;/h3&gt;
+&lt;p&gt;  인스턴스가 작성된후 동기적으로 호출된다.
+부모,자식 관계 컴포넌트가 렌더링 될때 mounted보다 먼저 호출되며 부모,자식순으로 실행한다.
+Create 단계에서는 호출되는 라이플 사이클 훅은 &lt;code class=&quot;language-text&quot;&gt;beforeCreate&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;created&lt;/code&gt; 가 있다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1-1.beforeCreate&lt;br&gt;
+인스턴스가 방금 초기화 된 후 데이터 관찰 및 이벤트/감시자 설정 동기적으로 호출됩니다.&lt;/li&gt;
+&lt;li&gt;1-2.created&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;data&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;computed&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;methods&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;watch&lt;/code&gt;등 과 같은 옵션처리를 완료합니다 그러나
+마운트가 시작되지 않았으므로 &lt;code class=&quot;language-text&quot;&gt;$el&lt;/code&gt; 속성을 아직 사용할수가 없다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;2mount&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2mount&quot; aria-label=&quot;2mount permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2.Mount&lt;/h3&gt;
+&lt;p&gt;el이 새로 생성된 vm.$el로 대체된 인스턴스가 마운트 된 직후 호출됩니다.
+서버 사이드 렌더링을 지원하지 않습니다. 렌더링이 될 때 DOM을 변경하고 싶다면
+이 라이프 사이클 훅을 사용할 수 있습니다. Mount 단계에서는 호출되는 라이프 사이클 훅은
+&lt;code class=&quot;language-text&quot;&gt;beforeMount&lt;/code&gt;와  &lt;code class=&quot;language-text&quot;&gt;mounted&lt;/code&gt; 가 있다 .   &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2-1.beforeMount
+마운트가 시작되기 바로 전에 호출된다. &lt;code class=&quot;language-text&quot;&gt;render&lt;/code&gt;함수가 처음으로 호출된다.
+&lt;strong&gt;이 훅은 서버측 렌더링 중 호출되지 않습니다&lt;/strong&gt;   &lt;/li&gt;
+&lt;li&gt;2-2.mounted
+&lt;code class=&quot;language-text&quot;&gt;mounted&lt;/code&gt;는 모든 자식 컴포넌트가 마운트 된 상태를 보장하지 않는다.&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;mounted&lt;/code&gt;내부에서  &lt;code class=&quot;language-text&quot;&gt;vm.$nextTick&lt;/code&gt; 를 사용하면 전체가 렌더링 상태를 보장한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mounted: function () {
+  this.$nextTick(function () {
+    // 모든 화면이 렌더링된 후 실행합니다.
+  })
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;3update&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3update&quot; aria-label=&quot;3update permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3.Update&lt;/h3&gt;
+&lt;p&gt;컴포넌트에서 사용되는 속성들이 변경되는 등의.. 컴포넌트가 재 랜더링 되면 실행되는 라이프 사이클 훅입니다.
+Update 단계에서는 호출되는 라이프 사이클 훅은 &lt;code class=&quot;language-text&quot;&gt;beforeUpdate&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;updated&lt;/code&gt; 가 있다.   &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3-1.beforeUpdate&lt;br&gt;
+데이터가 변경되면, 가상 DOM 재 렌더링 과 패치가 이뤄지기전에 호출 이된다.
+이 훅 에서는 더 많은 상태 변경을 수행할수 가 있으며 추가로 재 렌더링을 하지않는다.   &lt;/li&gt;
+&lt;li&gt;3-2.updated&lt;br&gt;
+DOM이 재 렌더링 된 후 호출되는 라이프 사이클 훅입니다. DOM이 업데이트 된 후 호출 되는 훅이기 때문에
+변경 된 후의 DOM을 이용해야 하는 처리를 할 때 사용하기 유용한 훅입니다.
+&lt;code class=&quot;language-text&quot;&gt;updated&lt;/code&gt; 는 모든 자식 컴포넌트 가 재 렌더링 된 상태를 보장하지않는다&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;updated&lt;/code&gt; 내부에서 &lt;code class=&quot;language-text&quot;&gt;vm.$nextTick&lt;/code&gt; 를 사용하면 전체가 업데이트된 상태를 보장합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;//TodoList 떄 적용한 코드입니다 Todo List 도 정리해서 업로드 할 예정입니다.
+editedTodo () {
+      // 수정한 내용이 있는 경우만 저장!
+      if (this.todo.title !== this.editedTitle) {
+        this.updateTodo({
+          title: this.editedTitle,
+          updatedAt: new Date()
+        })
+      }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;4destroy&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4destroy&quot; aria-label=&quot;4destroy permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.Destroy&lt;/h3&gt;
+&lt;p&gt;컴포넌트가 제거될때 실행되는 라이프 사이클 훅입니다.
+Destory 단계에서는 호출되는 라이프 사이클 훅은 &lt;code class=&quot;language-text&quot;&gt;beforeDestroy&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;destroyed&lt;/code&gt; 가 있다.     &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4-1.beforeDestroy&lt;br&gt;
+Vue 인스턴스가 제거되기 전에 호출됩니다. 이 단계에서 인스턴스는 아직 완벽하게 작동한다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;4-2.destroyed
+Vue 인스턴스가 제거된 후 호출됩니다.
+이 훅이 호출되면 Vue 인스턴스의 모든 디렉티브가 바인딩 해제 되고
+모든 이벤트 리스너가 제거되며 모든 하위 Vue 인스턴스도 삭제됩니다.    &lt;/p&gt;
+&lt;h3 id=&quot;정리한-이유&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EB%A6%AC%ED%95%9C-%EC%9D%B4%EC%9C%A0&quot; aria-label=&quot;정리한 이유 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정리한 이유&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1.Vue 에 대해 정확한 라이프사이클을 정리하는겸 살을 붙이기 위해 정리했습니다.&lt;br&gt;
+2.라이플사이클은 정확히 알아가야하는 기본이기에 정리하게되었습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;참조 : &lt;a href=&quot;https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4&quot;&gt;Vue.js 2.0 라이프사이클 이해하기 &lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;참조 : &lt;a href=&quot;https://kr.vuejs.org/v2/api/index.html#%EC%98%B5%EC%85%98-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%ED%9B%85&quot;&gt;참고문서&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[JavaScript 문법공부 (Const,let,var)]]></title><description><![CDATA[변수 선언방식은 총 3 가지 가 있습니다. var,let,const 차이점 5가지   1.중복선언 가능여부   2.재활당 가능여부   3.변수 스코프 유효범위   4.변수 호이스팅 방식   5.전역객체 프로퍼티 여부   1.중복선언 1.var…]]></description><link>https://rlwi440.github.io/JavaScript/variable.basic/</link><guid isPermaLink="false">https://rlwi440.github.io/JavaScript/variable.basic/</guid><pubDate>Tue, 28 Sep 2021 12:10:01 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; &quot;
     &gt;
