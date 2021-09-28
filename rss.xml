@@ -1,4 +1,140 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 27 Sep 2021 23:06:11 GMT</lastBuildDate><item><title><![CDATA[Vue Basic(SPA 와  History mode 와 Hash mode)]]></title><description><![CDATA[Vue.Js 란 웹 페이지 화면을 개발하기 위한 프론트엔드 프레임워크 기반이다. 컴포넌트 기반으로 SPA(Single Page Application)를 구축할 수 있게 해주는 프레임워크이다. SPA…]]></description><link>https://rlwi440.github.io/Vue/vue.js-란/</link><guid isPermaLink="false">https://rlwi440.github.io/Vue/vue.js-란/</guid><pubDate>Mon, 27 Sep 2021 22:09:48 GMT</pubDate><content:encoded>&lt;h1 id=&quot;vuejs-란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#vuejs-%EB%9E%80&quot; aria-label=&quot;vuejs 란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vue.Js 란&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Sep 2021 04:04:13 GMT</lastBuildDate><item><title><![CDATA[JavaScript 문법공부 (Const,let,var)]]></title><description><![CDATA[변수 선언방식은 총 3 가지 가 있습니다. var,let,const 차이점 5가지   1.중복선언 가능여부   2.재활당 가능여부   3.변수 스코프 유효범위   4.변수 호이스팅 방식   5.전역객체 프로퍼티 여부   1.중복선언 1.var…]]></description><link>https://rlwi440.github.io/JavaScript/variable.basic/</link><guid isPermaLink="false">https://rlwi440.github.io/JavaScript/variable.basic/</guid><pubDate>Tue, 28 Sep 2021 12:10:01 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAABOklEQVQoz61TTUvDQBDNz/Rf5AeI2ItRkBw8iiAeKoJIKx6C8eAXPRRDLsaTxuYQ3YAXTUXzufvcTbP5KA0qdOAxs7NvX2Z2NgqWbMrfqazyjM1QrOZipbmglLYgc3meF17yKiEq8nlLVGmSfq1RipXii/arCgkJYNs2Xl98OI5TgBBSeMuy4HlewZOVUvoN926AwcE6bm6HtaBoR5hpmlhd6+HyegRN28Dm1jYM4xy6rkNVVRz2+1UlwdMDjrQVnOz1MDzexeT5sRbk9c+uO7oH3g0gHANfI2B6ASQ+Ur4ZZwlKFpI4wun+DsZXZwinYXfLNP0AjQhY5IPGbzwOeO4TaZZzZMg4Ch7vaOK6rem3hsKalz2HrqEIEx+QQq1nA0kSvgRr+EWHmrE8Kqv918PuFq17Upb96/0A4ZCgaJlO+7YAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;모던자바스크립트&quot;
+        title=&quot;모던자바스크립트&quot;
+        src=&quot;/static/6debff272d2c20c872d26e59273efe81/1cfc2/Deep%20Dive.png&quot;
+        srcset=&quot;/static/6debff272d2c20c872d26e59273efe81/5a46d/Deep%20Dive.png 300w,
+/static/6debff272d2c20c872d26e59273efe81/0a47e/Deep%20Dive.png 600w,
+/static/6debff272d2c20c872d26e59273efe81/1cfc2/Deep%20Dive.png 900w&quot;
+        sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;변수-선언방식은-총-3-가지-가-있습니다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%80%EC%88%98-%EC%84%A0%EC%96%B8%EB%B0%A9%EC%8B%9D%EC%9D%80-%EC%B4%9D-3-%EA%B0%80%EC%A7%80-%EA%B0%80-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4&quot; aria-label=&quot;변수 선언방식은 총 3 가지 가 있습니다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;변수 선언방식은 총 3 가지 가 있습니다.&lt;/h2&gt;
+&lt;h3 id=&quot;varletconst-차이점-5가지&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#varletconst-%EC%B0%A8%EC%9D%B4%EC%A0%90-5%EA%B0%80%EC%A7%80&quot; aria-label=&quot;varletconst 차이점 5가지 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;var,let,const 차이점 5가지&lt;/h3&gt;
+&lt;p&gt;  1.중복선언 가능여부&lt;br&gt;
+2.재활당 가능여부&lt;br&gt;
+3.변수 스코프 유효범위&lt;br&gt;
+4.변수 호이스팅 방식&lt;br&gt;
+5.전역객체 프로퍼티 여부  &lt;/p&gt;
+&lt;h3 id=&quot;1중복선언&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1%EC%A4%91%EB%B3%B5%EC%84%A0%EC%96%B8&quot; aria-label=&quot;1중복선언 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.중복선언&lt;/h3&gt;
+&lt;p&gt;1.var:중복선언이 가능하다 .&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// 첫번째 변수 var a = 10; console.log(a); // 10 
+//두번째 변수 var a = 20; console.log(a); // 20&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;2.const,let : 중복선언 불가능&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; let a=10 ;
+ let b=10 ; // SyntaxError: Identifier &apos;a&apos; has already been declared&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;2재할당&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2%EC%9E%AC%ED%95%A0%EB%8B%B9&quot; aria-label=&quot;2재할당 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2.재할당&lt;/h3&gt;
+&lt;p&gt;2-1.var,let : 값의 재할당이’가능’한 변수다 &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;var a=10;
+a =20;
+  console.log(a) //20
+
+let b=10;
+  b=20;
+  console.log(b) //20&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;2.const: 값의 재할당 이’불가능’ 한 상수다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; const c = 10;
+ c=20; // TypeError: Assignment to constant variable.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;3스코프&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3%EC%8A%A4%EC%BD%94%ED%94%84&quot; aria-label=&quot;3스코프 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3.스코프&lt;/h3&gt;
+&lt;p&gt;3-1.스코프 &lt;strong&gt;(유효범위)&lt;/strong&gt;를 통해 식별자인 변수이름의 충돌을 방지하여 같은이름의 변수를 사용할수있다 &lt;/p&gt;
+&lt;p&gt;1.함수 레벨 스코프 &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;var x =1; 
+  if (true){ // x 는 전역변수이며 , 이미 선언된 전역변수 x가 있으며 x 변수는 중복선언된다.
+  var x =10 ; 
+  } 
+  console.log(x) // 10 
+  var i =10 ; 
+  for(var i=0; i&amp;lt;5; i++){ 
+    // i 는 전역변수이며 , 이미 선언된 전역변수 i 가 있으며 i 변수는 중복선언된다. 
+      console.log(i) //0 1 2 3 4 5 
+  } 
+    Console.log(i) //5&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;1-1.전역과 전역 스코프&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;전역에서 선언된 변수는 전역 스코프를 갖는 전역변수 &lt;/li&gt;
+&lt;li&gt;지역에서 선언된 변수는 지역 스코프를 갖는 지역변수&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  var x =&quot;global x&quot;     // 전역스코프
+  var y =&quot;global y&quot;
+
+  function outer(){  //지역 스코프
+    var z=&quot;outer local z&quot;
+    console.log(x) //
+    console.log(y)
+    console.log(z)
+    function inner(){     //지역 스코프
+      var x=&quot;outer local x&quot;
+
+      console.log(x)
+      console.log(y)
+      console.log(z)
+    }
+    inner()
+  }
+  outer()
+
+  console.log(x)
+  console.log(z)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;1-2.렉시컬 스코프 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;렉시컬 스코프가 헷갈린다면 스코프 체인 예제를 찾아보길 권장합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;var x =1 ;
+ 
+function foo(){
+  var x =10 ;
+  bar()   // 함수를 어디서 호출했는지에 따라 함수 상위 스코프를 결정
+}
+function bar(){ //함수를 어디서 정의했는지에 따라 함수 상위 스코프를 결정
+  console.log(x)
+}
+foo()
+bar()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;첫번째 방식은 동적스코프 (Dynamic Scope)&lt;/li&gt;
+&lt;li&gt;두번째 방식은 정적스코프 (static Scope)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;4호이스팅&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85&quot; aria-label=&quot;4호이스팅 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.호이스팅&lt;/h3&gt;
+&lt;p&gt;자바스크립트는 코드를 실행하기전 , 일종의 &lt;strong&gt;코드 평가 과정&lt;/strong&gt; 거치는데
+이 때 ‘변수 선언문’을 미리 실행두기 때문에 뒤에서 선언된 변수도 앞의 코드에서 참조할 수 있게 된다.
+이를 변수 호이스팅이라고 한다.&lt;/p&gt;
+&lt;p&gt;4-1.var:변수 호이스팅이 발생&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// foo 변수가 선언(1.선언단계) 
+// (2.초기화 단계) 
+console.log(foo); // undefined 
+//(3.할당 단계) 
+foo=123; 
+console.log(foo); 
+var foo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;4-2.let,const 변수 호이스팅이 발생  하지만 다른방식으로 작동&lt;/p&gt;
+&lt;p&gt;let/const로 변수를 선언하는 경우,&lt;/p&gt;
+&lt;p&gt;코드 실행 전에는&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;변수 선언 &lt;/li&gt;
+&lt;li&gt;초기화는 코드 실행 과정에서 변수 선언문을 만났을 때 수행이 가능하다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;console.log(bar); // ReferenceError: bar is not defined 
+let bar = 10;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;5전역객체-프로퍼티여부&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5%EC%A0%84%EC%97%AD%EA%B0%9D%EC%B2%B4-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EC%97%AC%EB%B6%80&quot; aria-label=&quot;5전역객체 프로퍼티여부 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5.전역객체 프로퍼티여부&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;var  키워드로 선언한 전역변수는 전역객체의  window의프로퍼티로 이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;var x =1;
+console.log(window.x) //1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;-let 키워드로 선언한 전역변수는 전역객체의 window 의 프로퍼티가 아니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;let x=1
+console.log(window.x)
+console.log(x)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Vue Basic(SPA 와  History mode 와 Hash mode)]]></title><description><![CDATA[Vue.Js 란 웹 페이지 화면을 개발하기 위한 프론트엔드 프레임워크 기반이다. 컴포넌트 기반으로 SPA(Single Page Application)를 구축할 수 있게 해주는 프레임워크이다. SPA…]]></description><link>https://rlwi440.github.io/Vue/vue.js-란/</link><guid isPermaLink="false">https://rlwi440.github.io/Vue/vue.js-란/</guid><pubDate>Mon, 27 Sep 2021 22:09:48 GMT</pubDate><content:encoded>&lt;h1 id=&quot;vuejs-란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#vuejs-%EB%9E%80&quot; aria-label=&quot;vuejs 란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vue.Js 란&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;웹 페이지 화면을 개발하기 위한 프론트엔드 프레임워크 기반이다.&lt;/li&gt;
 &lt;li&gt;
@@ -131,4 +267,4 @@ Hash mode는 모든 URL을 HASH(#) 형태로 서비스합니다. URL이 변경�
 &lt;p&gt;&lt;em&gt;감사합니다.&lt;/em&gt;&lt;/p&gt;
 &lt;br/&gt;
 &lt;p&gt;&lt;sub&gt;&lt;sup&gt;Front-End Engineer, &lt;a href=&quot;https://github.com/rlwi440&quot;&gt;@CleanDev&lt;/a&gt;&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Category Test2]]></title><description><![CDATA[Test1]]></description><link>https://rlwi440.github.io/scss/test2/</link><guid isPermaLink="false">https://rlwi440.github.io/scss/test2/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaScript]]></title><description><![CDATA[Test1]]></description><link>https://rlwi440.github.io/JavaScript/test3/</link><guid isPermaLink="false">https://rlwi440.github.io/JavaScript/test3/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Category Test2]]></title><description><![CDATA[Test1]]></description><link>https://rlwi440.github.io/scss/test2/</link><guid isPermaLink="false">https://rlwi440.github.io/scss/test2/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item></channel></rss>
