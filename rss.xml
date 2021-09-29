@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Sep 2021 14:49:37 GMT</lastBuildDate><item><title><![CDATA[동기 와 비동기 처리의 이해]]></title><description><![CDATA[1.동기식 과 비동기식 처리 1-1. 동기식 처리  코드가 작성된 순서대로 실행됩니다.  1-2.비동기식 처리 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Sep 2021 09:59:10 GMT</lastBuildDate><item><title><![CDATA[store 및 vue-cli]]></title><link>https://rlwi440.github.io/Vue/store-및-vue-cli-/</link><guid isPermaLink="false">https://rlwi440.github.io/Vue/store-및-vue-cli-/</guid><pubDate>Wed, 29 Sep 2021 18:09:57 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[동기 와 비동기 처리의 이해]]></title><description><![CDATA[1.동기식 과 비동기식 처리 1-1. 동기식 처리  코드가 작성된 순서대로 실행됩니다.  1-2.비동기식 처리 
 코드가 작성된 순서와는 상관없이 지정된 순서에 의해 실행됩니다.
 비동기 처리 로는   등이 있습니다.  callback…]]></description><link>https://rlwi440.github.io/Vue/Async-Await/</link><guid isPermaLink="false">https://rlwi440.github.io/Vue/Async-Await/</guid><pubDate>Tue, 28 Sep 2021 22:10:21 GMT</pubDate><content:encoded>&lt;h3 id=&quot;1동기식-과-비동기식-처리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1%EB%8F%99%EA%B8%B0%EC%8B%9D-%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%8B%9D-%EC%B2%98%EB%A6%AC&quot; aria-label=&quot;1동기식 과 비동기식 처리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.동기식 과 비동기식 처리&lt;/h3&gt;
 &lt;ul&gt;
@@ -21,8 +21,10 @@ b() //b&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;callback&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#callback&quot; aria-label=&quot;callback permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;callback&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;재귀함수와 같은 형태로 하나의 함수 안에서 다른함숭를 호출하는 방식으로 순서를 부여한다.   &lt;/li&gt;
-&lt;li&gt;호출하는 함수가 많아질수록 코드의 의존성이 올라가며, 가독성과 효율성이 떨어진다.&lt;/li&gt;
+&lt;li&gt;비동기 처리를 하기위한 하나의 패턴으로 콜백함수를사용한다.&lt;/li&gt;
+&lt;li&gt;전통적인 콜백패턴은 &lt;strong&gt;콜백 헬로 인해 가독성이 나쁘고&lt;/strong&gt; 비동기 처리중
+발생한 에러의 처리가 곤란하며 여러개의 비동기처리를 한번에 하는곳에대한 한계도있다
+밑에있는 예제들을 참고하시면 됩니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function a(cb){
   setTimeout(function(){
@@ -175,10 +177,7 @@ a()
 &lt;p&gt;1.동기 와 비동기 처리의 이해 를 정리하는 글을 올리게되었습니다.&lt;br&gt;
 2.실무에서 많이 사용하는 예제이며 ,핵심내용이기에 정리 해보았습니다.
 3.MovieApp을 만들면서 필요한 예제들은 프로젝트 업로드 후 정리해서 코드와 같이 업로드 하겠습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;참조 :&lt;a href=&quot;https://devraphy.tistory.com/229&quot;&gt;Async&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Vue.js 2.0 라이프사이클]]></title><description><![CDATA[1.Vue.js의 제일 기초적인 개념적인 내용입니다. 라이플사이클은 크게    로 나눌수가있습니다. 1.Create   인스턴스가 작성된후 동기적으로 호출된다.
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Vue.js 2.0 라이프사이클]]></title><description><![CDATA[1.Vue.js의 제일 기초적인 개념적인 내용입니다. 라이플사이클은 크게    로 나눌수가있습니다. 1.Create   인스턴스가 작성된후 동기적으로 호출된다.
   부모,자식 관계 컴포넌트가 렌더링 될때 mounted…]]></description><link>https://rlwi440.github.io/Vue/라이프사이클/</link><guid isPermaLink="false">https://rlwi440.github.io/Vue/라이프사이클/</guid><pubDate>Tue, 28 Sep 2021 21:10:05 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
