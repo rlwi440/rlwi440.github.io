@@ -3,9 +3,9 @@ module.exports = {
   description: `Blog posted about ...`,
   author: `[깔끔한청년]`,
   introduction: `Web Front Engineer Interested  Vue.Js,JavaScript `,
-  siteUrl: `https://rlwi440.github.io/`, // Your blog site url
+  siteUrl: `https://rlwi440.github.io`, // Your blog site url
   social: {
-    twitter: `cBXMy36S9h0W3Ot`, // Your Twitter account  //변경예정 
+    twitter: `cBXMy36S9h0W3Ot`, // Your Twitter account  //변경예정
     github: `rlwi440`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
@@ -13,12 +13,7 @@ module.exports = {
     instagram: ``, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [
-              `blog`,
-              'clean-dev',
-              'rlwi440',
-              '깔끔한청년'
-            ],
+  keywords: [`blog`, 'clean-dev', 'rlwi440', '깔끔한청년'],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: 'rlwi440/rlwi440.github.io', // Your repository for archive comment
