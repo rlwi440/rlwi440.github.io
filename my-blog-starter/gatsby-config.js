@@ -96,7 +96,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://rlwi440.github.io/',
+        host: 'https://rlwi440.github.io',
         sitemap: 'https://rlwi440.github.io/sitemap.xml',
         policy: [
           {
