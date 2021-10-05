@@ -1,7 +1,7 @@
 ---
 title: 동기 와 비동기 처리의 이해
 date: 2021-09-28 22:09:81
-category: vue
+category: Vue
 thumbnail: { thumbnailSrc }
 draft: false
 ---

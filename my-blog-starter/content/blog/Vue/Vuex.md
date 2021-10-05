@@ -1,7 +1,7 @@
 ---
 title: Vuex (state,getters,Mutations,Actions)
 date: 2021-09-29 18:09:57
-category: vue
+category: Vue
 thumbnail: { ./images/Vuex.png }
 draft: false
 ---

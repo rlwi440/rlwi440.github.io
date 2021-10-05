@@ -1,7 +1,7 @@
 ---
 title: Jest
 date: 2021-10-01 22:10:48
-category: vue
+category: Vue
 thumbnail: { ./images/JestBlack.png }
 draft: false
 ---
