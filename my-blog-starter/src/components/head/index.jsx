@@ -53,6 +53,10 @@ export function Head({ description, lang, meta, keywords, title }) {
               {
                 name: "google-site-verification",
                 content: "jSYulTENGQdt6G7tYH2N9SQ8sCZ3vXgNSG2hYHXBYLM"
+              },
+              {
+                name:`naver-site-verification`,
+                content:`77d36a6373efeb5c93f353232e2f0beab4331f30`
               }
             ]
               .concat(
