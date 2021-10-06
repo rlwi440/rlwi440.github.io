@@ -1,5 +1,5 @@
 ---
-title: Jest
+title: Jest Testing (정리개선중 )
 date: 2021-10-01 22:10:48
 category: Vue
 thumbnail: { ./images/JestBlack.png }
@@ -111,7 +111,7 @@ module.exports = {
 - toBe는 값이 정확히 같은지 비교
 - toEqal 는 객체결과를 비교
 
-### mount 와 shallwmount 차이
+### mount 와 shallowmount 차이
 
 - mount는 하위컴포넌트 까지 전달
 - shallowmonunt는 stub 이 된다. 가짜 컴포넌트 전달이 가능 합니다.
@@ -215,6 +215,7 @@ describe('movie store', () => {
 > 실제로 공부하면서 사용한 예제 이며 공부한 내용들을 기록하고 싶어서 적어놓게 되었습니다.
 > 공부하기 좋은예제라 생각하게 되어 블로그를 쓰게 되었습니다.
 > 공부하면서 버전관리 가 중요하다는것 깨달았습니다.
+> 피드백 받은부분들 챕터별로 정리예정 입니다.
 
 - 참조문서
   1. [Jest 참조](https://jestjs.io/docs/api)
