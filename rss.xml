@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 22:02:47 GMT</lastBuildDate><item><title><![CDATA[Jest]]></title><description><![CDATA[Test 파일 작성규칙  폴더에 들어있는 test 파일 들은 작성한다. 폴더에 들어있는 test 파일 의 이름은 로 파일 을 작성한다. Vue Test Utils(VTU) Vue.js…]]></description><link>https://rlwi440.github.io/Vue/jest/</link><guid isPermaLink="false">https://rlwi440.github.io/Vue/jest/</guid><pubDate>Fri, 01 Oct 2021 22:10:48 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 Oct 2021 14:05:29 GMT</lastBuildDate><item><title><![CDATA[Array type별 (Method정리)]]></title><description><![CDATA[정리안된부분 정리 Array.of 메서드 는 전달된 인수를 요소로 갖는배열 생성 Array.from 메서드 는 유사배열객체 ,이터러블 객체를 인수로 전달받아 배열로 변환하여 반환 -Array.isArray메서드는 전달된 인수가 배열이면 true…]]></description><link>https://rlwi440.github.io/JavaScript/array.prototype/</link><guid isPermaLink="false">https://rlwi440.github.io/JavaScript/array.prototype/</guid><pubDate>Wed, 06 Oct 2021 22:11:20 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAABOklEQVQoz61TTUvDQBDNz/Rf5AeI2ItRkBw8iiAeKoJIKx6C8eAXPRRDLsaTxuYQ3YAXTUXzufvcTbP5KA0qdOAxs7NvX2Z2NgqWbMrfqazyjM1QrOZipbmglLYgc3meF17yKiEq8nlLVGmSfq1RipXii/arCgkJYNs2Xl98OI5TgBBSeMuy4HlewZOVUvoN926AwcE6bm6HtaBoR5hpmlhd6+HyegRN28Dm1jYM4xy6rkNVVRz2+1UlwdMDjrQVnOz1MDzexeT5sRbk9c+uO7oH3g0gHANfI2B6ASQ+Ur4ZZwlKFpI4wun+DsZXZwinYXfLNP0AjQhY5IPGbzwOeO4TaZZzZMg4Ch7vaOK6rem3hsKalz2HrqEIEx+QQq1nA0kSvgRr+EWHmrE8Kqv918PuFq17Upb96/0A4ZCgaJlO+7YAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;모던자바스크립트&quot;
+        title=&quot;모던자바스크립트&quot;
+        src=&quot;/static/6debff272d2c20c872d26e59273efe81/1cfc2/Deep%20Dive.png&quot;
+        srcset=&quot;/static/6debff272d2c20c872d26e59273efe81/5a46d/Deep%20Dive.png 300w,
+/static/6debff272d2c20c872d26e59273efe81/0a47e/Deep%20Dive.png 600w,
+/static/6debff272d2c20c872d26e59273efe81/1cfc2/Deep%20Dive.png 900w&quot;
+        sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;정리안된부분-정리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EB%A6%AC%EC%95%88%EB%90%9C%EB%B6%80%EB%B6%84-%EC%A0%95%EB%A6%AC&quot; aria-label=&quot;정리안된부분 정리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정리안된부분 정리&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Array.of 메서드 는 전달된 인수를 요소로 갖는배열 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// [1]&lt;/span&gt;
+&lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// [1,2,3]&lt;/span&gt;
+&lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;string&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//[&apos;string&apos;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Array.from 메서드 는 유사배열객체 ,이터러블 객체를 인수로 전달받아 배열로 변환하여 반환&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;//유사 배열객체를 변환하여 배열 을생성&lt;/span&gt;
+&lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; length&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;b&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// [&apos;a&apos;,&apos;b&apos;]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;//이터러블을 변환하여 배열을 생성&lt;/span&gt;
+&lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Hi&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//[&apos;H&apos;,&apos;i&apos;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;-Array.isArray메서드는 전달된 인수가 배열이면 true, 배열이아니면 false&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;//true&lt;/span&gt;
+&lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;isArray&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;isArray&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;//false&lt;/span&gt;
+&lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;isArray&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;isArray&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Array 타입별 정리 요약&lt;br&gt;
+Array 정리별 부족했던 부분들을 채우기 위해&lt;br&gt;
+모던자바스크립트 DeepDive 참고&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Jest Testing (정리개선중 )]]></title><description><![CDATA[Test 파일 작성규칙  폴더에 들어있는 test 파일 들은 작성한다. 폴더에 들어있는 test 파일 의 이름은 로 파일 을 작성한다. Vue Test Utils(VTU) Vue.js…]]></description><link>https://rlwi440.github.io/Vue/jest/</link><guid isPermaLink="false">https://rlwi440.github.io/Vue/jest/</guid><pubDate>Fri, 01 Oct 2021 22:10:48 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 796px; &quot;
     &gt;
@@ -167,7 +214,7 @@ localVue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span c
 &lt;li&gt;toBe는 값이 정확히 같은지 비교&lt;/li&gt;
 &lt;li&gt;toEqal 는 객체결과를 비교&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;mount-와-shallwmount-차이&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mount-%EC%99%80-shallwmount-%EC%B0%A8%EC%9D%B4&quot; aria-label=&quot;mount 와 shallwmount 차이 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;mount 와 shallwmount 차이&lt;/h3&gt;
+&lt;h3 id=&quot;mount-와-shallowmount-차이&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mount-%EC%99%80-shallowmount-%EC%B0%A8%EC%9D%B4&quot; aria-label=&quot;mount 와 shallowmount 차이 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;mount 와 shallowmount 차이&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;mount는 하위컴포넌트 까지 전달&lt;/li&gt;
 &lt;li&gt;shallowmonunt는 stub 이 된다. 가짜 컴포넌트 전달이 가능 합니다.&lt;/li&gt;
@@ -265,7 +312,8 @@ jest&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class
 &lt;blockquote&gt;
 &lt;p&gt;실제로 공부하면서 사용한 예제 이며 공부한 내용들을 기록하고 싶어서 적어놓게 되었습니다.
 공부하기 좋은예제라 생각하게 되어 블로그를 쓰게 되었습니다.
-공부하면서 버전관리 가 중요하다는것 깨달았습니다.&lt;/p&gt;
+공부하면서 버전관리 가 중요하다는것 깨달았습니다.
+피드백 받은부분들 챕터별로 정리예정 입니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;
