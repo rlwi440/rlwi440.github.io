@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 22 Oct 2021 02:48:35 GMT</lastBuildDate><item><title><![CDATA[웹팩의 기본구조]]></title><description><![CDATA[1.웹팩의 기본구조: entry,output,loader,plugin,mode entry  entry 모듈의 의존관계를 이해하기위한 시작점 웹팩에서 웹자원을 변환하기위한 최초 진입니점 및 자바스크립트 경로 로 할수가 있다. output output…]]></description><link>https://rlwi440.github.io/Webpack/웹팩 기본구조/</link><guid isPermaLink="false">https://rlwi440.github.io/Webpack/웹팩 기본구조/</guid><pubDate>Thu, 21 Oct 2021 22:10:20 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 22 Oct 2021 02:51:01 GMT</lastBuildDate><item><title><![CDATA[웹팩의 기본구조]]></title><description><![CDATA[1.웹팩의 기본구조: entry,output,loader,plugin,mode entry  entry 모듈의 의존관계를 이해하기위한 시작점 웹팩에서 웹자원을 변환하기위한 최초 진입니점 및 자바스크립트 경로 로 할수가 있다. output output…]]></description><link>https://rlwi440.github.io/Webpack/웹팩 기본구조/</link><guid isPermaLink="false">https://rlwi440.github.io/Webpack/웹팩 기본구조/</guid><pubDate>Thu, 21 Oct 2021 22:10:20 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
@@ -190,7 +190,10 @@
 &lt;blockquote&gt;
 &lt;p&gt;웹팩의 기본구조 를 정리하면서 공부했던부분들을 큰틀을 잡혀있을수 있어서 좋았고.&lt;br&gt;
 세밀한 부분들을 정리해서 올릴생각입니다.&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[My Faborite Books]]></title><description><![CDATA[예제를 사용하면서 미니 프로젝트를 진행해보았습니다. axios 사용한 JS CRUD 이며, Authorization : API에 접속하기 위해서는 access token을 API…]]></description><link>https://rlwi440.github.io/project/book(crud)/</link><guid isPermaLink="false">https://rlwi440.github.io/project/book(crud)/</guid><pubDate>Tue, 19 Oct 2021 18:11:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://v4.webpack.js.org/&quot;&gt;참고문서&lt;/a&gt; &lt;strong&gt;webpack 4&lt;/strong&gt; 버전 문서내용입니다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[My Faborite Books]]></title><description><![CDATA[예제를 사용하면서 미니 프로젝트를 진행해보았습니다. axios 사용한 JS CRUD 이며, Authorization : API에 접속하기 위해서는 access token을 API…]]></description><link>https://rlwi440.github.io/project/book(crud)/</link><guid isPermaLink="false">https://rlwi440.github.io/project/book(crud)/</guid><pubDate>Tue, 19 Oct 2021 18:11:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 888px; &quot;
     &gt;
