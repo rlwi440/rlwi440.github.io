@@ -1,7 +1,7 @@
 ---
 title: WebpackConfig
 date: 2021-10-22 14:10:12
-category: webpack
+category: Webpack
 thumbnail: { ./images/Webpack.png) }
 draft: false
 ---
