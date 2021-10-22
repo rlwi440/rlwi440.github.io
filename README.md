@@ -26,7 +26,7 @@
 
 ---
 
-### ✔️[Webpack](https://rlwi440.github.io/?category=project)
+### ✔️[Webpack](https://rlwi440.github.io/?category=Webpack)
 
 - Webpack 정리내용글 입니다.
 
