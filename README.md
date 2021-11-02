@@ -1,6 +1,6 @@
 # [cleanDev.io](https://rlwi440.github.io/)
 
-## Today I Learned
+### Today I Learned
 
 ### Intro
 
