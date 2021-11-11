@@ -2,11 +2,11 @@
 title: Array type별 (Method정리)
 date: 2021-10-06 22:10:80
 category: javascript
-thumbnail: { ./images/Deep Dive.png }
+thumbnail: { ./images/Deep_Dive.png }
 draft: false
 ---
 
-![모던자바스크립트](./images/Deep Dive.png)
+![모던자바스크립트](./images/Deep_Dive.png)
 
 ### 정리안된부분 정리
 
@@ -71,4 +71,4 @@ console.log(array1.fill(6))
 > Array 정리별 부족했던 부분들을 채우기 위해  
 > 모던자바스크립트 DeepDive 참고
 
-*참고 :[MDNV 문서](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array)
+\*참고 :[MDNV 문서](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array)

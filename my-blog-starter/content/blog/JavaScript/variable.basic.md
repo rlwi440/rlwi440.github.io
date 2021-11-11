@@ -2,11 +2,11 @@
 title: JavaScript 문법공부 (Const,let,var)
 date: 2021-09-28 12:09:61
 category: javascript
-thumbnail: { thumbnailSrc }
+thumbnail: { ./images/Deep_Dive.png }
 draft: false
 ---
 
-![모던자바스크립트](./images/Deep Dive.png)
+![모던자바스크립트](./images/Deep_Dive.png)
 
 ## 변수 선언방식은 총 3 가지 가 있습니다.
 
