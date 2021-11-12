@@ -31,7 +31,7 @@
 - Webpack 정리내용글 입니다.
 
 ### ✔️[알고리즘](https://rlwi440.github.io/?category=TIL)
-- [💬JSdocs](https://cleandev-js-docs.netlify.app/index.html) 알고리즘 풀이예제들을 정리하고 있습니다. 
+- [💬](https://cleandev-js-docs.netlify.app/index.html) 알고리즘 풀이예제들을 정리하고 있습니다. 
 - 프로그래머스 level 1을 풀면서 배웠던 내용들을 다시보기 위해 업로드 하고있습니다.
 - 모르는 내용들은 복습후 다시 풀고있습니다.
 
