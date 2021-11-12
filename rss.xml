@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 11 Nov 2021 08:58:50 GMT</lastBuildDate><item><title><![CDATA[JSON]]></title><description><![CDATA[은 클라이언트 와 서버 간의 HTTP 통신을 위한 텍스트 데이터 포맷 JSON.stringfy (클라이언트 ➡️ 서버 ) 객체를 JSON…]]></description><link>https://rlwi440.github.io/JavaScript/json/</link><guid isPermaLink="false">https://rlwi440.github.io/JavaScript/json/</guid><pubDate>Thu, 11 Nov 2021 12:12:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean Dev]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Nov 2021 14:11:17 GMT</lastBuildDate><item><title><![CDATA[2021.11.12]]></title><description><![CDATA[TIL(Today I Learned) 기록 2021.11.12 dir 예전부터 계획했던 프로젝트 하나였던  플러그인  설치후 
+기본적인 자바스크립트  방식들 과  을 방식들을 
+공부를 하고 싶어서 조금씩 조금씩 만들게 되었으며 
+-가장 중요한 핵심…]]></description><link>https://rlwi440.github.io/TIL/2021.11.12/</link><guid isPermaLink="false">https://rlwi440.github.io/TIL/2021.11.12/</guid><pubDate>Fri, 12 Nov 2021 22:12:35 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA7klEQVQoz5VR0WrDMAz0///NvmEtDEa39nEtY2Vsa0mWhjh2LMmyUjnLRiFLoYewjaU7+yQTAK1tuwB60PXnAIB5RZoLpFhVtRERRGTmfgKR1M+jba1hTkjUebd+elg9LpbL++1uxwTrxd3ry/MgIf+SrbUmpQSIEX1bbJrjpiw+fIDi6/1zv1XdKy9nsgoDgEr0N8I5ZySJ996FWj84xGh37rd/ICKjW9PUh+NbjHTTyyMZQii/S4d+0m25cpPJ6lbnpAY4sVxA0zrCGOPIkV67qgP+9ZQHbDglrThVp2nPNK3yuXroRRc7YLjMngFrmErSX+rflAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;JSdoc&quot;
+        title=&quot;JSdoc&quot;
+        src=&quot;/static/a5b7fdc47ef391ed38fae1623035bf79/c1b63/Jsdoc.png&quot;
+        srcset=&quot;/static/a5b7fdc47ef391ed38fae1623035bf79/5a46d/Jsdoc.png 300w,
+/static/a5b7fdc47ef391ed38fae1623035bf79/0a47e/Jsdoc.png 600w,
+/static/a5b7fdc47ef391ed38fae1623035bf79/c1b63/Jsdoc.png 1200w,
+/static/a5b7fdc47ef391ed38fae1623035bf79/d61c2/Jsdoc.png 1800w,
+/static/a5b7fdc47ef391ed38fae1623035bf79/29114/Jsdoc.png 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt; &lt;/p&gt;
+&lt;h1 id=&quot;tiltoday-i-learned-기록-20211112&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tiltoday-i-learned-%EA%B8%B0%EB%A1%9D-20211112&quot; aria-label=&quot;tiltoday i learned 기록 20211112 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;TIL(Today I Learned) 기록 2021.11.12&lt;/h1&gt;
+&lt;h3 id=&quot;dir&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dir&quot; aria-label=&quot;dir permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;dir&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;JS-Docs
+├── docs
+├── src
+└── tutorials&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;예전부터 계획했던 프로젝트 하나였던 &lt;code class=&quot;language-text&quot;&gt;JsDocs&lt;/code&gt; 플러그인  설치후
+기본적인 자바스크립트 &lt;code class=&quot;language-text&quot;&gt;Basic&lt;/code&gt; 방식들 과 &lt;code class=&quot;language-text&quot;&gt;알고리즘&lt;/code&gt; 을 방식들을
+공부를 하고 싶어서 조금씩 조금씩 만들게 되었으며
+-가장 중요한 핵심 3가지는 Clean code 에서 &lt;code class=&quot;language-text&quot;&gt;가독성&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;가독성&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;가독성&lt;/code&gt; 이라는 말을 강조 하듯이 가독성 과  기본적인 문법 및 간략한 코드를 만들기 연습 하고  있다.
+아직은 정말 많이 무지하고 부족하다..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;알고리즘--제일-작은수-제거하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98--%EC%A0%9C%EC%9D%BC-%EC%9E%91%EC%9D%80%EC%88%98-%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0&quot; aria-label=&quot;알고리즘  제일 작은수 제거하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;알고리즘  제일 작은수 제거하기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;제일 헷갈렸던 &lt;code class=&quot;language-text&quot;&gt;reduce&lt;/code&gt;  반복함수 및 &lt;code class=&quot;language-text&quot;&gt;filter&lt;/code&gt; true 인 요소로만 구성된 새로운 배열을 반환 &lt;/li&gt;
+&lt;li&gt;알고리즘들을 문제를 풀어보면서 조금씩 ES6문법 &lt;code class=&quot;language-text&quot;&gt;Array.prototype&lt;/code&gt; 요소들을  제대로 알기 시작하였고, 눈에 보이기 시작했다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; idx 
+    arr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;pre&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;cur&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; idx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; cur &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; pre &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; pre&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; cur&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; arr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;e &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; idx &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[JSON]]></title><description><![CDATA[은 클라이언트 와 서버 간의 HTTP 통신을 위한 텍스트 데이터 포맷 JSON.stringfy (클라이언트 ➡️ 서버 ) 객체를 JSON…]]></description><link>https://rlwi440.github.io/JavaScript/json/</link><guid isPermaLink="false">https://rlwi440.github.io/JavaScript/json/</guid><pubDate>Thu, 11 Nov 2021 12:12:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; &quot;
     &gt;
