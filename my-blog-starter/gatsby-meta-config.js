@@ -1,16 +1,16 @@
 module.exports = {
-  title: `Clean Dev`,
+  title: `Clean TIL`,
   description: `Blog posted about ...`,
-  author: `[깔끔한청년]`,
-  introduction: `Web Front Engineer Interested  Vue.Js,JavaScript `,
+  author: `[깔끔한청년]`, // 법호명 나오면 내용수정 예정
+  introduction: `Was interested in a web front engineer, but is now a shaman. `,
   siteUrl: `https://rlwi440.github.io`, // Your blog site url
   social: {
-    twitter: `cBXMy36S9h0W3Ot`, // Your Twitter account  //변경예정
+    twitter: ``, // Your Twitter account
     github: `rlwi440`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
-    instagram: ``, // Your Instagram account
+    instagram: `bae_giweon`, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`, 'clean-dev', 'rlwi440', '깔끔한청년'],
