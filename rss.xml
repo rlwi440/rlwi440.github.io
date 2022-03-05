@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean TIL]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Mar 2022 00:57:28 GMT</lastBuildDate><item><title><![CDATA[New post title]]></title><link>https://rlwi440.github.io/Book_Report/new-post-title/</link><guid isPermaLink="false">https://rlwi440.github.io/Book_Report/new-post-title/</guid><pubDate>Mon, 28 Feb 2022 11:02:29 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[2022.02.28]]></title><description><![CDATA[title description Emoji…]]></description><link>https://rlwi440.github.io/TIL/2022.02.28/</link><guid isPermaLink="false">https://rlwi440.github.io/TIL/2022.02.28/</guid><pubDate>Mon, 28 Feb 2022 10:02:13 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Clean TIL]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://rlwi440.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Mar 2022 01:03:41 GMT</lastBuildDate><item><title><![CDATA[New post title]]></title><link>https://rlwi440.github.io/Book_Report/new-post-title/</link><guid isPermaLink="false">https://rlwi440.github.io/Book_Report/new-post-title/</guid><pubDate>Mon, 28 Feb 2022 11:02:29 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[2022.02.28]]></title><description><![CDATA[title description Emoji…]]></description><link>https://rlwi440.github.io/TIL/2022.02.28/</link><guid isPermaLink="false">https://rlwi440.github.io/TIL/2022.02.28/</guid><pubDate>Mon, 28 Feb 2022 10:02:13 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1080px; &quot;
     &gt;
@@ -164,8 +164,13 @@
 &lt;/ul&gt;
 &lt;p&gt;💙 점사를 보기전 &lt;strong&gt;필요한 준비물&lt;/strong&gt;이있습니다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;생년월일(음력기준) 태어난 시&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;얼굴사진(방문점사 ❎ 전화점사 ⭕)&lt;/code&gt;&lt;br&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;생년월일(음력기준) 태어난 시&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;얼굴사진(방문점사 ❎ 전화점사 ⭕)&lt;/code&gt;&lt;br&gt;
 얼굴사진은 &lt;strong&gt;전화점사 시 권유&lt;/strong&gt;를 드리고 한번더 물어보겠습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;💰 점사비용 얼마인가요?!&lt;/p&gt;
 &lt;ul&gt;
@@ -173,7 +178,8 @@
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;1인기준 5만원입니다.&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;☺️ 점사시간 &lt;code class=&quot;language-text&quot;&gt;______&lt;/code&gt; 은 어떻게 되나요?!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;방문점사 시간 : 30분 ~ 1시간입니다.&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;전화점사 시간: 30분~1시간입니다.&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;방문점사 시간 : 30분 ~ 1시간입니다.&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;전화점사 시간: 30분~1시간입니다.&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
