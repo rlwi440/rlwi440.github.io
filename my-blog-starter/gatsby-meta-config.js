@@ -1,7 +1,7 @@
 module.exports = {
-  title: `Clean TIL`,
-  description: `Blog posted about ...`,
-  author: `[깔끔한청년]`, // 법호명 나오면 내용수정 예정
+  title: `Cheonsu`,
+  description: `천수도령 기록하는일지입니다.`,
+  author: `[천수도령 ]`, // 법호명 나오면 내용수정 예정
   introduction: `Was interested in a web front engineer, but is now a shaman. `,
   siteUrl: `https://rlwi440.github.io`, // Your blog site url
   social: {
@@ -10,9 +10,9 @@ module.exports = {
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
-    instagram: `bae_giweon`, // Your Instagram account
+    instagram: `cheonsu_dolyeong`, // Your Instagram account
   },
-  icon: `content/assets/felog.png`, // Add your favicon
+  icon: `content/assets/banner.png`, // Add your favicon
   keywords: [`blog`, 'clean-dev', 'rlwi440', '깔끔한청년'],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.

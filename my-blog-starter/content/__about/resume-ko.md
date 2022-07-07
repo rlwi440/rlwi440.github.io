@@ -4,7 +4,7 @@ date: 2021-09-27 19:27:13
 lang: 'ko'
 ---
 
-# 애동제자 배기원
+# 천수도령 입니다.
 
 <div align="right"><sub><i>Last updated: 2022.04.06</i></sub></div>
 
@@ -25,7 +25,7 @@ lang: 'ko'
 
 |               |                                                         |
 | :-----------: | ------------------------------------------------------- |
-| **Instagram** | <https://www.instagram.com/bae_giweon/>                 |
+| **Instagram** | <https://www.instagram.com/cheonsu_dolyeong/>           |
 |   **KaKao**   | <http://qr.kakao.com/talk/QGJDstQJiy4qt4oNmLZnXVsz1k0-> |
 |  **Contact**  | <baeki34@gmail.com>                                     |
 |   **Phone**   | `010-9949-9153`                                         |
